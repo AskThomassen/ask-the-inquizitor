@@ -1,0 +1,115 @@
+[
+    {
+      "question": ["Old Trafford"],
+      "answer": "Manchester United"
+    },
+    {
+      "question": ["Anfield"],
+      "answer": "Liverpool"
+    },
+    {
+      "question": ["Etihad Stadium"],
+      "answer": "Manchester City"
+    },
+    {
+      "question": ["Emirates Stadium"],
+      "answer": "Arsenal"
+    },
+    {
+      "question": ["Stamford Bridge"],
+      "answer": "Chelsea"
+    },
+    {
+      "question": ["Tottenham Hotspur Stadium"],
+      "answer": "Tottenham"
+    },
+    {
+      "question": ["St James' Park"],
+      "answer": "Newcastle"
+    },
+    {
+      "question": ["Villa Park"],
+      "answer": "Aston Villa"
+    },
+    {
+      "question": ["Goodison Park"],
+      "answer": "Everton"
+    },
+    {
+      "question": ["Elland Road"],
+      "answer": "Leeds"
+    },
+    {
+      "question": ["London Stadium"],
+      "answer": "West Ham"
+    },
+    {
+      "question": ["King Power Stadium"],
+      "answer": "Leicester"
+    },
+    {
+      "question": ["Selhurst Park"],
+      "answer": "Crystal Palace"
+    },
+    {
+      "question": ["Molineux Stadium"],
+      "answer": "Wolves"
+    },
+    {
+      "question": ["Amex Stadium"],
+      "answer": "Brighton"
+    },
+    {
+      "question": ["Brentford Community Stadium"],
+      "answer": "Brentford"
+    },
+    {
+      "question": ["Craven Cottage"],
+      "answer": "Fulham"
+    },
+    {
+      "question": ["Turf Moor"],
+      "answer": "Burnley"
+    },
+    {
+      "question": ["Bramall Lane"],
+      "answer": "Sheffield United"
+    },
+    {
+      "question": ["Kenilworth Road"],
+      "answer": "Luton Town"
+    },
+    {
+        "question": ["Hillsborough"],
+        "answer": "Sheffield Wednesday"
+      },
+      {
+        "question": ["City Ground"],
+        "answer": "Nottingham Forest"
+      },
+      {
+        "question": ["Ewood Park"],
+        "answer": "Blackburn"
+      },
+      {
+        "question": ["Stadium of Light"],
+        "answer": "Sunderland"
+      },
+      {
+        "question": ["Portman Road"],
+        "answer": "Ipswich Town"
+      },
+      {
+        "question": ["Riverside Stadium"],
+        "answer": "Middlesbrough"
+      },
+      {
+        "question": ["Pride Park"],
+        "answer": "Derby County"
+        },
+        {
+            "question": ["Loftus Road"],
+            "answer": "Queens Park Rangers"
+        }
+  ]
+  

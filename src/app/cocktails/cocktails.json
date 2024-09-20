@@ -1,0 +1,15 @@
+[
+    {
+      "question": ["Tequila", "Lime juice", "Triple sec"],
+      "answer": "Margarita"
+    },
+    {
+      "question": ["White rum", "Sugar", "Lime", "Mint", "Soda water"],
+      "answer": "Mojito"
+    },
+    {
+      "question": ["Vodka", "Triple sec", "Cranberry juice", "Lime juice"],
+      "answer": "Cosmopolitan"
+    }
+  ]
+  

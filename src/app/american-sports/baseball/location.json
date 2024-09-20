@@ -1,0 +1,123 @@
+[
+    {
+      "question": ["New York (not Mets)"],
+      "answer": "Yankees"
+    },
+    {
+      "question": ["Boston"],
+      "answer": "Red Sox"
+    },
+    {
+      "question": ["Chicago (not White Sox)"],
+      "answer": "Cubs"
+    },
+    {
+      "question": ["Los Angeles (not Angels)"],
+      "answer": "Dodgers"
+    },
+    {
+      "question": ["San Francisco"],
+      "answer": "Giants"
+    },
+    {
+      "question": ["Houston"],
+      "answer": "Astros"
+    },
+    {
+      "question": ["Atlanta"],
+      "answer": "Braves"
+    },
+    {
+      "question": ["New York (not Yankees)"],
+      "answer": "Mets"
+    },
+    {
+      "question": ["Philadelphia"],
+      "answer": "Phillies"
+    },
+    {
+      "question": ["Washington"],
+      "answer": "Nationals"
+    },
+    {
+      "question": ["St. Louis"],
+      "answer": "Cardinals"
+    },
+    {
+      "question": ["San Diego"],
+      "answer": "Padres"
+    },
+    {
+      "question": ["Milwaukee"],
+      "answer": "Brewers"
+    },
+    {
+      "question": ["Cincinnati"],
+      "answer": "Reds"
+    },
+    {
+      "question": ["Pittsburgh"],
+      "answer": "Pirates"
+    },
+    {
+      "question": ["Miami"],
+      "answer": "Marlins"
+    },
+    {
+      "question": ["Colorado"],
+      "answer": "Rockies"
+    },
+    {
+      "question": ["Arizona"],
+      "answer": "Diamondbacks"
+    },
+    {
+      "question": ["Minnesota"],
+      "answer": "Twins"
+    },
+    {
+      "question": ["Cleveland"],
+      "answer": "Guardians"
+    },
+    {
+      "question": ["Detroit"],
+      "answer": "Tigers"
+    },
+    {
+      "question": ["Kansas City"],
+      "answer": "Royals"
+    },
+    {
+      "question": ["Chicago (not Cubs)"],
+      "answer": "White Sox"
+    },
+    {
+      "question": ["Seattle"],
+      "answer": "Mariners"
+    },
+    {
+      "question": ["Texas"],
+      "answer": "Rangers"
+    },
+    {
+      "question": ["Oakland"],
+      "answer": "Athletics"
+    },
+    {
+      "question": ["Los Angeles (not Dodgers)"],
+      "answer": "Angels"
+    },
+    {
+      "question": ["Toronto"],
+      "answer": "Blue Jays"
+    },
+    {
+      "question": ["Tampa Bay"],
+      "answer": "Rays"
+    },
+    {
+      "question": ["Baltimore"],
+      "answer": "Orioles"
+    }
+  ]
+  

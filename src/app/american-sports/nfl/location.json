@@ -1,0 +1,131 @@
+[
+    {
+      "question": ["Arizona"],
+      "answer": "Cardinals"
+    },
+    {
+      "question": ["Atlanta"],
+      "answer": "Falcons"
+    },
+    {
+      "question": ["Baltimore"],
+      "answer": "Ravens"
+    },
+    {
+      "question": ["Buffalo"],
+      "answer": "Bills"
+    },
+    {
+      "question": ["Carolina"],
+      "answer": "Panthers"
+    },
+    {
+      "question": ["Chicago"],
+      "answer": "Bears"
+    },
+    {
+      "question": ["Cincinnati"],
+      "answer": "Bengals"
+    },
+    {
+      "question": ["Cleveland"],
+      "answer": "Browns"
+    },
+    {
+      "question": ["Dallas"],
+      "answer": "Cowboys"
+    },
+    {
+      "question": ["Denver"],
+      "answer": "Broncos"
+    },
+    {
+      "question": ["Detroit"],
+      "answer": "Lions"
+    },
+    {
+      "question": ["Green Bay"],
+      "answer": "Packers"
+    },
+    {
+      "question": ["Houston"],
+      "answer": "Texans"
+    },
+    {
+      "question": ["Indianapolis"],
+      "answer": "Colts"
+    },
+    {
+      "question": ["Jacksonville"],
+      "answer": "Jaguars"
+    },
+    {
+      "question": ["Kansas City"],
+      "answer": "Chiefs"
+    },
+    {
+      "question": ["Las Vegas"],
+      "answer": "Raiders"
+    },
+    {
+      "question": ["Los Angeles (not Chargers)"],
+      "answer": "Rams"
+    },
+    {
+      "question": ["Los Angeles (not Rams)"],
+      "answer": "Chargers"
+    },
+    {
+      "question": ["Miami"],
+      "answer": "Dolphins"
+    },
+    {
+      "question": ["Minnesota"],
+      "answer": "Vikings"
+    },
+    {
+      "question": ["New England"],
+      "answer": "Patriots"
+    },
+    {
+      "question": ["New Orleans"],
+      "answer": "Saints"
+    },
+    {
+      "question": ["New York (not Jets)"],
+      "answer": "Giants"
+    },
+    {
+      "question": ["New York (not Giants)"],
+      "answer": "Jets"
+    },
+    {
+      "question": ["Philadelphia"],
+      "answer": "Eagles"
+    },
+    {
+      "question": ["Pittsburgh"],
+      "answer": "Steelers"
+    },
+    {
+      "question": ["San Francisco"],
+      "answer": "49ers"
+    },
+    {
+      "question": ["Seattle"],
+      "answer": "Seahawks"
+    },
+    {
+      "question": ["Tampa Bay"],
+      "answer": "Buccaneers"
+    },
+    {
+      "question": ["Tennessee"],
+      "answer": "Titans"
+    },
+    {
+      "question": ["Washington"],
+      "answer": "Commanders"
+    }
+  ]
+  
