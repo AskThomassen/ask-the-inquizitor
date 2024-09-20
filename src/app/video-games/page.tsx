@@ -38,9 +38,9 @@ export default function games() {
       {games.length > 0 && (
         <Quiz
           data={games.filter((s) => !usedQuestions.includes(s))}
-          questionTitle="game:"
-          inputPlaceholder="Enter football team"
-          quizTitle="Football game Quiz"
+          questionTitle="Game:"
+          inputPlaceholder="Enter video game"
+          quizTitle="Video game Quiz"
           onQuestionAnswered={handleQuestionUsed}
         />
       )}
