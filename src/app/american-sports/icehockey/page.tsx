@@ -38,8 +38,8 @@ export default function names() {
       {names.length > 0 && (
         <Quiz
           data={names.filter((s) => !usedQuestions.includes(s))}
-          questionTitle="name:"
-          inputPlaceholder="Enter football team"
+          questionTitle="NHL team:"
+          inputPlaceholder="Enter team name"
           quizTitle="NHL city-name Quiz"
           onQuestionAnswered={handleQuestionUsed}
         />
