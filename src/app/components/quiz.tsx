@@ -97,9 +97,6 @@ export default function Quiz({
   return (
     <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full text-center">
       <h1 className="text-4xl font-bold text-gray-800 mb-6">{quizTitle}</h1>
-
-      
-
       <h2 className="text-2xl font-semibold text-gray-700 mb-4">
         {reversed ? "Reverse answer:" : questionTitle}
       </h2>

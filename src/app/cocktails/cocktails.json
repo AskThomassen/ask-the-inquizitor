@@ -10,6 +10,74 @@
     {
       "question": ["Vodka", "Triple sec", "Cranberry juice", "Lime juice"],
       "answer": "Cosmopolitan"
+    },
+    {
+      "question": ["Gin", "Tonic water", "Lime"],
+      "answer": "Gin and Tonic"
+    },
+    {
+      "question": ["Rum", "Coconut cream", "Pineapple juice"],
+      "answer": "Pina Colada"
+    },
+    {
+      "question": ["Whiskey", "Sweet vermouth", "Angostura bitters"],
+      "answer": "Manhattan"
+    },
+    {
+      "question": ["Vodka", "Ginger beer", "Lime"],
+      "answer": "Moscow Mule"
+    },
+    {
+      "question": ["Gin", "Lemon juice", "Simple syrup", "Soda water"],
+      "answer": "Tom Collins"
+    },
+    {
+      "question": ["White rum", "Coconut cream", "Pineapple juice"],
+      "answer": "Piña Colada"
+    },
+    {
+      "question": ["Whiskey", "Lemon juice", "Simple syrup"],
+      "answer": "Whiskey Sour"
+    },
+    {
+      "question": ["Tequila", "Orange juice", "Grenadine"],
+      "answer": "Tequila Sunrise"
+    },
+    {
+      "question": ["Gin", "Campari", "Sweet vermouth"],
+      "answer": "Negroni"
+    },
+    {
+      "question": ["Champagne", "Sugar cube", "Angostura bitters"],
+      "answer": "Champagne Cocktail"
+    },
+    {
+      "question": ["Rum", "Sugar", "Lime juice"],
+      "answer": "Daiquiri"
+    },
+    {
+      "question": ["Vodka", "Coffee liqueur", "Cream"],
+      "answer": "White Russian"
+    },
+    {
+      "question": ["Whiskey", "Absinthe", "Bitters", "Sugar"],
+      "answer": "Sazerac"
+    },
+    {
+      "question": ["Brandy", "Triple sec", "Lemon juice"],
+      "answer": "Sidecar"
+    },
+    {
+      "question": ["Gin", "Lemon juice", "Egg white", "Simple syrup"],
+      "answer": "Gin Fizz"
+    },
+    {
+      "question": ["Rum", "Mint", "Lime", "Sugar", "Club soda"],
+      "answer": "Cuban Mojito"
+    },
+    {
+      "question": ["Vodka", "Tomato juice", "Worcestershire sauce", "Tabasco"],
+      "answer": "Bloody Mary"
     }
   ]
   
