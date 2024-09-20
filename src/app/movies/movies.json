@@ -1,0 +1,155 @@
+[
+    {
+      "question": ["Luke Skywalker", "Leia Organa", "Han Solo"],
+      "answer": "Star Wars"
+    },
+    {
+      "question": ["Frodo Baggins", "Aragorn", "Gandalf"],
+      "answer": "The Lord of the Rings"
+    },
+    {
+      "question": ["Tony Stark", "Steve Rogers", "Thor"],
+      "answer": "The Avengers"
+    },
+    {
+      "question": ["Harry Potter", "Hermione Granger", "Ron Weasley"],
+      "answer": "Harry Potter"
+    },
+    {
+      "question": ["Marty McFly", "Doc Brown"],
+      "answer": "Back to the Future"
+    },
+    {
+      "question": ["Indiana Jones"],
+      "answer": "Indiana Jones"
+    },
+    {
+      "question": ["Neo", "Morpheus", "Trinity"],
+      "answer": "The Matrix"
+    },
+    {
+      "question": ["Forrest Gump"],
+      "answer": "Forrest Gump"
+    },
+    {
+      "question": ["James Bond"],
+      "answer": "James Bond"
+    },
+    {
+      "question": ["Bruce Wayne", "Alfred", "The Joker"],
+      "answer": "The Dark Knight"
+    },
+    {
+      "question": ["Ellen Ripley"],
+      "answer": "Alien"
+    },
+    {
+      "question": ["Peter Parker"],
+      "answer": "Spider-Man"
+    },
+    {
+      "question": ["Rick Deckard"],
+      "answer": "Blade Runner"
+    },
+    {
+      "question": ["Maximus Decimus Meridius"],
+      "answer": "Gladiator"
+    },
+    {
+      "question": ["Wolverine", "Charles Xavier", "Magneto"],
+      "answer": "X-Men"
+    },
+    {
+      "question": ["Jack Sparrow"],
+      "answer": "Pirates of the Caribbean"
+    },
+    {
+      "question": ["Rocky Balboa"],
+      "answer": "Rocky"
+    },
+    {
+      "question": ["Katniss Everdeen"],
+      "answer": "The Hunger Games"
+    },
+    {
+      "question": ["Ethan Hunt"],
+      "answer": "Mission: Impossible"
+    },
+    {
+      "question": ["Travis Bickle"],
+      "answer": "Taxi Driver"
+    },
+    {
+      "question": ["Clarice Starling", "Hannibal Lecter"],
+      "answer": "The Silence of the Lambs"
+    },
+    {
+      "question": ["Michael Corleone"],
+      "answer": "The Godfather"
+    },
+    {
+      "question": ["Jules Winnfield", "Vincent Vega"],
+      "answer": "Pulp Fiction"
+    },
+    {
+      "question": ["John McClane"],
+      "answer": "Die Hard"
+    },
+    {
+      "question": ["Sarah Connor", "The Terminator"],
+      "answer": "The Terminator"
+    },
+    {
+      "question": ["Tyler Durden", "The Narrator"],
+      "answer": "Fight Club"
+    },
+    {
+      "question": ["Andy Dufresne", "Red"],
+      "answer": "The Shawshank Redemption"
+    },
+    {
+      "question": ["Dom Cobb"],
+      "answer": "Inception"
+    },
+    {
+      "question": ["Shrek", "Donkey"],
+      "answer": "Shrek"
+    },
+    {
+      "question": ["Tony Montana"],
+      "answer": "Scarface"
+    },
+    {
+      "question": ["Nemo", "Marlin", "Dory"],
+      "answer": "Finding Nemo"
+    },
+    {
+      "question": ["Simba", "Mufasa"],
+      "answer": "The Lion King"
+    },
+    {
+      "question": ["Vito Corleone", "Michael Corleone"],
+      "answer": "The Godfather"
+    },
+    {
+      "question": ["Jack Dawson", "Rose DeWitt Bukater"],
+      "answer": "Titanic"
+    },
+    {
+      "question": ["Kevin McCallister"],
+      "answer": "Home Alone"
+    },
+    {
+      "question": ["Edward Scissorhands"],
+      "answer": "Edward Scissorhands"
+    },
+    {
+      "question": ["The Dude"],
+      "answer": "The Big Lebowski"
+    },
+    {
+      "question": ["Amélie Poulain"],
+      "answer": "Amélie"
+    }
+  ]
+  

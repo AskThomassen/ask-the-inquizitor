@@ -13,7 +13,7 @@ export default function games() {
   const [usedQuestions, setUsedQuestions] = useState<game[]>([]);
 
   useEffect(() => {
-    import("./game.json")
+    import("./series.json")
       .then((data) => {
         const shuffledgames = shuffleArray(data.default);
         setgames(shuffledgames);
@@ -39,8 +39,8 @@ export default function games() {
         <Quiz
           data={games.filter((s) => !usedQuestions.includes(s))}
           questionTitle="Protagonist(s):"
-          inputPlaceholder="Enter video game"
-          quizTitle="Video game Quiz"
+          inputPlaceholder="Enter TV-show name"
+          quizTitle="Tv-shows"
           onQuestionAnswered={handleQuestionUsed}
         />
       )}

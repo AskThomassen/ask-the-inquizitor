@@ -1,0 +1,163 @@
+[
+    {
+      "question": ["Jon Snow", "Daenerys Targaryen"],
+      "answer": "Game of Thrones"
+    },
+    {
+      "question": ["Walter White", "Jesse Pinkman"],
+      "answer": "Breaking Bad"
+    },
+    {
+      "question": ["Ted Mosby", "Barney Stinson"],
+      "answer": "How I Met Your Mother"
+    },
+    {
+      "question": ["Rachel Green", "Ross Geller", "Monica Geller", "Chandler Bing", "Joey Tribbiani", "Phoebe Buffay"],
+      "answer": "Friends"
+    },
+    {
+      "question": ["Michael Scott", "Dwight Schrute", "Jim Halpert"],
+      "answer": "The Office"
+    },
+    {
+      "question": ["Rick Grimes", "Daryl Dixon"],
+      "answer": "The Walking Dead"
+    },
+    {
+      "question": ["Eleven", "Mike Wheeler", "Dustin Henderson"],
+      "answer": "Stranger Things"
+    },
+    {
+      "question": ["Tony Soprano"],
+      "answer": "The Sopranos"
+    },
+    {
+      "question": ["Jerry Seinfeld", "George Costanza", "Elaine Benes", "Cosmo Kramer"],
+      "answer": "Seinfeld"
+    },
+    {
+      "question": ["Sheldon Cooper", "Leonard Hofstadter", "Penny"],
+      "answer": "The Big Bang Theory"
+    },
+    {
+      "question": ["Dexter Morgan"],
+      "answer": "Dexter"
+    },
+    {
+      "question": ["Don Draper"],
+      "answer": "Mad Men"
+    },
+    {
+      "question": ["Michael Bluth", "Gob Bluth"],
+      "answer": "Arrested Development"
+    },
+    {
+      "question": ["Carrie Bradshaw", "Samantha Jones"],
+      "answer": "Sex and the City"
+    },
+    {
+      "question": ["Marty Byrde", "Wendy Byrde"],
+      "answer": "Ozark"
+    },
+    {
+      "question": ["Piper Chapman", "Alex Vause"],
+      "answer": "Orange is the New Black"
+    },
+    {
+      "question": ["Tommy Shelby"],
+      "answer": "Peaky Blinders"
+    },
+    {
+      "question": ["Jack Bauer"],
+      "answer": "24"
+    },
+    {
+      "question": ["Buffy Summers"],
+      "answer": "Buffy the Vampire Slayer"
+    },
+    {
+      "question": ["Tyrion Lannister", "Cersei Lannister"],
+      "answer": "Game of Thrones"
+    },
+    {
+      "question": ["Sherlock Holmes", "John Watson"],
+      "answer": "Sherlock"
+    },
+    {
+      "question": ["Lorelai Gilmore", "Rory Gilmore"],
+      "answer": "Gilmore Girls"
+    },
+    {
+      "question": ["Carrie Mathison", "Saul Berenson"],
+      "answer": "Homeland"
+    },
+    {
+      "question": ["Frank Underwood", "Claire Underwood"],
+      "answer": "House of Cards"
+    },
+    {
+      "question": ["BoJack Horseman", "Diane Nguyen"],
+      "answer": "BoJack Horseman"
+    },
+    {
+      "question": ["Elliot Alderson"],
+      "answer": "Mr. Robot"
+    },
+    {
+      "question": ["Archie Andrews", "Betty Cooper"],
+      "answer": "Riverdale"
+    },
+    {
+      "question": ["Daenerys Targaryen", "Jon Snow"],
+      "answer": "Game of Thrones"
+    },
+    {
+      "question": ["Tommy Shelby"],
+      "answer": "Peaky Blinders"
+    },
+    {
+      "question": ["Jim Hopper", "Eleven"],
+      "answer": "Stranger Things"
+    },
+    {
+      "question": ["Michael Burnham"],
+      "answer": "Star Trek: Discovery"
+    },
+    {
+      "question": ["Jean-Luc Picard"],
+      "answer": "Star Trek: Picard"
+    },
+    {
+      "question": ["David Budd"],
+      "answer": "Bodyguard"
+    },
+    {
+      "question": ["Phoebe Waller-Bridge"],
+      "answer": "Fleabag"
+    },
+    {
+      "question": ["James Holden", "Naomi Nagata"],
+      "answer": "The Expanse"
+    },
+    {
+      "question": ["Geralt of Rivia"],
+      "answer": "The Witcher"
+    },
+    {
+      "question": ["Barry Berkman"],
+      "answer": "Barry"
+    },
+    {
+      "question": ["June Osborne"],
+      "answer": "The Handmaid's Tale"
+    },
+    {
+      "question": ["David Rose", "Alexis Rose"],
+      "answer": "Schitt's Creek"
+    },
+    {
+      "question": ["Eve Polastri", "Villanelle"],
+      "answer": "Killing Eve"
+    }
+  ]
+  

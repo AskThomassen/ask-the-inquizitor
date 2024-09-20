@@ -47,6 +47,18 @@ export default function Landing(): JSX.Element {
           >
             American Sports
           </button>
+          <button
+            className="bg-red-600 text-white py-2 px-4 rounded-lg hover:bg-red-700 transition"
+            onClick={() => handleCategoryClick("tv-series")}
+          >
+            TV-shows and series
+          </button>
+          <button
+            className="bg-cyan-600 text-white py-2 px-4 rounded-lg hover:bg-cyan-700 transition"
+            onClick={() => handleCategoryClick("movies")}
+          >
+            Movies
+          </button>
         </div>
       </div>
     </Layout>

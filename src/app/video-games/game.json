@@ -20,12 +20,8 @@
       "answer": "The Witcher"
     },
     {
-      "question": ["Joel and Ellie"],
+      "question": ["Joel", "Ellie"],
       "answer": "The Last of Us"
-    },
-    {
-      "question": ["Arthur Morgan"],
-      "answer": "Red Dead Redemption 2"
     },
     {
       "question": ["Kratos"],
@@ -40,28 +36,12 @@
       "answer": "DOOM"
     },
     {
-      "question": ["Cloud Strife"],
-      "answer": "Final Fantasy VII"
-    },
-    {
       "question": ["Solid Snake"],
       "answer": "Metal Gear Solid"
     },
     {
-      "question": ["Ezio Auditore"],
-      "answer": "Assassin's Creed II"
-    },
-    {
       "question": ["Nathan Drake"],
       "answer": "Uncharted"
-    },
-    {
-      "question": ["Mario"],
-      "answer": "Super Mario"
-    },
-    {
-      "question": ["Sonic"],
-      "answer": "Sonic the Hedgehog"
     },
     {
       "question": ["Jill Valentine"],
@@ -78,10 +58,6 @@
     {
       "question": ["Aloy"],
       "answer": "Horizon Zero Dawn"
-    },
-    {
-      "question": ["Ellie"],
-      "answer": "The Last of Us Part II"
     },
     {
       "question": ["Arthur Dent"],
@@ -104,16 +80,32 @@
       "answer": "Street Fighter"
     },
     {
-      "question": ["Niko Bellic"],
-      "answer": "Grand Theft Auto IV"
+      "question": ["Trevor", "Michael", "Franklin"],
+      "answer": "Grand Theft Auto"
     },
     {
-      "question": ["Bayonetta"],
-      "answer": "Bayonetta"
+      "question": ["Marcus Fenix"],
+      "answer": "Gears of War"
     },
     {
-      "question": ["Trevor, Michael, and Franklin"],
-      "answer": "Grand Theft Auto V"
+      "question": ["Clementine"],
+      "answer": "The Walking Dead"
+    },
+    {
+      "question": ["Sora"],
+      "answer": "Kingdom Hearts"
+    },
+    {
+      "question": ["Max Caulfield"],
+      "answer": "Life is Strange"
+    },
+    {
+      "question": ["Jin Sakai"],
+      "answer": "Ghost of Tsushima"
+    },
+    {
+      "question": ["Agent 47"],
+      "answer": "Hitman"
     }
   ]
   
