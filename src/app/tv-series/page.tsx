@@ -41,7 +41,6 @@ export default function games() {
           questionTitle="Protagonist(s):"
           inputPlaceholder="Enter TV-show name"
           quizTitle="Tv-shows"
-          onQuestionAnswered={handleQuestionUsed}
         />
       )}
     </Layout>

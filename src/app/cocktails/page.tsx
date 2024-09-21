@@ -41,7 +41,6 @@ export default function Cocktails() {
           questionTitle="Ingredients:"
           inputPlaceholder="Enter cocktail name"
           quizTitle="Cocktail Quiz"
-          onQuestionAnswered={handleQuestionUsed}
         />
       )}
     </Layout>

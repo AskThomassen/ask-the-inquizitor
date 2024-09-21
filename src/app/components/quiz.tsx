@@ -1,5 +1,5 @@
 "use client";
-import { useState, FormEvent, ChangeEvent } from "react";
+import { useState, useEffect, FormEvent, ChangeEvent } from "react";
 
 interface QuizData {
   question: string[];
@@ -7,15 +7,14 @@ interface QuizData {
 }
 
 interface QuizProps {
-    data: {
-      question: string[];
-      answer: string;
-    }[];
-    questionTitle: string;
-    inputPlaceholder: string;
-    quizTitle: string;
-    onQuestionAnswered?: (question: { question: string[]; answer: string }) => void;
-  }
+  data: {
+    question: string[];
+    answer: string;
+  }[];
+  questionTitle: string;
+  inputPlaceholder: string;
+  quizTitle: string;
+}
 
 export default function Quiz({
   data,
@@ -23,25 +22,40 @@ export default function Quiz({
   inputPlaceholder,
   quizTitle,
 }: QuizProps) {
-  const [currentQuestion, setCurrentQuestion] = useState<number>(0);
+  const [questions, setQuestions] = useState<QuizData[]>([]);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [userInput, setUserInput] = useState<string>("");
   const [score, setScore] = useState<number>(0);
   const [feedback, setFeedback] = useState<string>("");
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
   const [reversed, setReversed] = useState<boolean>(false);
   const [guessedItems, setGuessedItems] = useState<string[]>([]);
+  const [wrongAnswers, setWrongAnswers] = useState<QuizData[]>([]);
+  const [quizComplete, setQuizComplete] = useState<boolean>(false);
+
+  useEffect(() => {
+    const shuffledQuestions = shuffleArray(data);
+    setQuestions(shuffledQuestions);
+  }, [data]);
+
+  const shuffleArray = (array: QuizData[]) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (reversed) {
       const userGuess = userInput.trim().toLowerCase();
-
-      const correctList = data[currentQuestion].question.map((item) =>
+      const correctList = questions[currentQuestionIndex]?.question.map((item) =>
         item.toLowerCase()
       );
 
-      if (correctList.includes(userGuess) && !guessedItems.includes(userGuess)) {
+      if (correctList?.includes(userGuess) && !guessedItems.includes(userGuess)) {
         setGuessedItems([...guessedItems, userGuess]);
         setScore(score + 1);
         setFeedback("Correct!");
@@ -51,20 +65,21 @@ export default function Quiz({
         setFeedback("Wrong!");
       }
 
-      if (guessedItems.length + 1 < correctList.length) {
+      if (guessedItems.length + 1 < correctList?.length) {
         setUserInput("");
       }
     } else {
       if (
         userInput.trim().toLowerCase() ===
-        data[currentQuestion].answer.toLowerCase()
+        questions[currentQuestionIndex]?.answer.toLowerCase()
       ) {
         setScore(score + 1);
         setFeedback("Correct!");
-        setUserInput(""); 
+        setUserInput("");
       } else {
         setFeedback("Wrong!");
-        setUserInput(""); 
+        setWrongAnswers([...wrongAnswers, questions[currentQuestionIndex]]);
+        setUserInput("");
       }
     }
   };
@@ -74,7 +89,12 @@ export default function Quiz({
     setFeedback("");
     setUserInput("");
     setGuessedItems([]);
-    setCurrentQuestion((prev) => (prev + 1) % data.length);
+
+    if (currentQuestionIndex + 1 >= questions.length) {
+      setQuizComplete(true);
+    } else {
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+    }
   };
 
   const handleTryAgain = () => {
@@ -84,15 +104,55 @@ export default function Quiz({
 
   const toggleMode = () => {
     setReversed(!reversed);
-    setCurrentQuestion(0); 
-    setScore(0); 
+    setCurrentQuestionIndex(0);
+    setScore(0);
     setFeedback("");
     setUserInput("");
     setShowAnswer(false);
     setGuessedItems([]);
   };
 
-  const allItemsGuessed = guessedItems.length === data[currentQuestion].question.length;
+  const allItemsGuessed =
+    guessedItems.length === (questions[currentQuestionIndex]?.question.length || 0);
+
+  const resetQuiz = () => {
+    setQuizComplete(false);
+    setScore(0);
+    setWrongAnswers([]);
+    setCurrentQuestionIndex(0);
+  };
+
+  if (quizComplete) {
+    return (
+      <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full text-center">
+        <h1 className="text-4xl font-bold text-gray-800 mb-6">
+          Quiz Complete!
+        </h1>
+        <p className="text-lg mb-4 text-black">Your Score: {score}/{questions.length}</p>
+
+        {wrongAnswers.length > 0 && (
+          <div className="text-left">
+            <h2 className="text-2xl text-black font-bold mb-4">Review of Incorrect Answers:</h2>
+            {wrongAnswers.map((question, index) => (
+              <div key={index} className="mb-4">
+                <p className="font-semibold text-black">Question: {question.question.join(", ")}</p>
+                <p className="text-red-600">Correct Answer: {question.answer}</p>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <button
+          onClick={resetQuiz}
+          className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition mt-6"
+        >
+          Try Again
+        </button>
+      </div>
+    );
+  }
+
+  if (questions.length === 0) return <div>Loading...</div>;
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full text-center">
@@ -104,10 +164,10 @@ export default function Quiz({
       <ul className="mb-6 space-y-2">
         {reversed ? (
           <li className="text-lg text-gray-600">
-            {data[currentQuestion].answer}
+            {questions[currentQuestionIndex]?.answer}
           </li>
         ) : (
-          data[currentQuestion].question.map((item, index) => (
+          questions[currentQuestionIndex]?.question.map((item, index) => (
             <li key={index} className="text-lg text-gray-600">
               {item}
             </li>
@@ -116,7 +176,7 @@ export default function Quiz({
       </ul>
       {reversed && (
         <p className="mb-4 text-gray-600">
-          Guessed: {guessedItems.length}/{data[currentQuestion].question.length}
+          Guessed: {guessedItems.length}/{questions[currentQuestionIndex]?.question.length || 0}
         </p>
       )}
 
@@ -128,11 +188,7 @@ export default function Quiz({
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               setUserInput(e.target.value)
             }
-            placeholder={
-              reversed
-                ? "Enter reverse answer:"
-                : inputPlaceholder
-            }
+            placeholder={reversed ? "Enter reverse answer:" : inputPlaceholder}
             className="w-full p-2 border border-gray-300 rounded text-black focus:outline-none focus:ring-2 focus:ring-purple-500"
             required
           />
@@ -164,12 +220,6 @@ export default function Quiz({
       {feedback === "Wrong!" && showAnswer == false && (
         <div className="mt-4 flex flex-col space-y-2">
           <button
-            onClick={handleTryAgain}
-            className="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition"
-          >
-            Try Again
-          </button>
-          <button
             onClick={() => setShowAnswer(true)}
             className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition"
           >
@@ -182,10 +232,10 @@ export default function Quiz({
         <div className="mt-4">
           <p className="text-red-600">
             {reversed
-              ? `The correct items are: ${data[currentQuestion].question.join(
+              ? `The correct items are: ${questions[currentQuestionIndex]?.question.join(
                   ", "
                 )}`
-              : `The correct answer is: ${data[currentQuestion].answer}`}
+              : `The correct answer is: ${questions[currentQuestionIndex]?.answer}`}
           </p>
           <button
             onClick={handleNextQuestion}

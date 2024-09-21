@@ -41,7 +41,6 @@ export default function games() {
           questionTitle="Protagonist(s):"
           inputPlaceholder="Enter video game"
           quizTitle="Video game Quiz"
-          onQuestionAnswered={handleQuestionUsed}
         />
       )}
     </Layout>

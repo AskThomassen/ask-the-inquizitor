@@ -41,7 +41,6 @@ export default function names() {
           questionTitle="NBA team"
           inputPlaceholder="Enter football team"
           quizTitle="NBA city-name Quiz"
-          onQuestionAnswered={handleQuestionUsed}
         />
       )}
     </Layout>
