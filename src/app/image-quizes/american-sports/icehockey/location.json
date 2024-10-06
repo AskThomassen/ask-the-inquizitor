@@ -1,0 +1,131 @@
+[
+    {
+      "question": ["Anaheim"],
+      "answer": "Ducks"
+    },
+    {
+      "question": ["Arizona"],
+      "answer": "Coyotes"
+    },
+    {
+      "question": ["Boston"],
+      "answer": "Bruins"
+    },
+    {
+      "question": ["Buffalo"],
+      "answer": "Sabres"
+    },
+    {
+      "question": ["Calgary"],
+      "answer": "Flames"
+    },
+    {
+      "question": ["Carolina"],
+      "answer": "Hurricanes"
+    },
+    {
+      "question": ["Chicago"],
+      "answer": "Blackhawks"
+    },
+    {
+      "question": ["Colorado"],
+      "answer": "Avalanche"
+    },
+    {
+      "question": ["Columbus"],
+      "answer": "Blue Jackets"
+    },
+    {
+      "question": ["Dallas"],
+      "answer": "Stars"
+    },
+    {
+      "question": ["Detroit"],
+      "answer": "Red Wings"
+    },
+    {
+      "question": ["Edmonton"],
+      "answer": "Oilers"
+    },
+    {
+      "question": ["Florida"],
+      "answer": "Panthers"
+    },
+    {
+      "question": ["Los Angeles (not Kings)"],
+      "answer": "Kings"
+    },
+    {
+      "question": ["Minnesota"],
+      "answer": "Wild"
+    },
+    {
+      "question": ["Montreal"],
+      "answer": "Canadiens"
+    },
+    {
+      "question": ["Nashville"],
+      "answer": "Predators"
+    },
+    {
+      "question": ["New Jersey"],
+      "answer": "Devils"
+    },
+    {
+      "question": ["New York (not Rangers)"],
+      "answer": "Islanders"
+    },
+    {
+      "question": ["New York (not Islanders)"],
+      "answer": "Rangers"
+    },
+    {
+      "question": ["Ottawa"],
+      "answer": "Senators"
+    },
+    {
+      "question": ["Philadelphia"],
+      "answer": "Flyers"
+    },
+    {
+      "question": ["Pittsburgh"],
+      "answer": "Penguins"
+    },
+    {
+      "question": ["San Jose"],
+      "answer": "Sharks"
+    },
+    {
+      "question": ["Seattle"],
+      "answer": "Kraken"
+    },
+    {
+      "question": ["St. Louis"],
+      "answer": "Blues"
+    },
+    {
+      "question": ["Tampa Bay"],
+      "answer": "Lightning"
+    },
+    {
+      "question": ["Toronto"],
+      "answer": "Maple Leafs"
+    },
+    {
+      "question": ["Vancouver"],
+      "answer": "Canucks"
+    },
+    {
+      "question": ["Vegas"],
+      "answer": "Golden Knights"
+    },
+    {
+      "question": ["Washington"],
+      "answer": "Capitals"
+    },
+    {
+      "question": ["Winnipeg"],
+      "answer": "Jets"
+    }
+  ]
+  

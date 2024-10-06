@@ -70,6 +70,11 @@ export default function Landing(): JSX.Element {
             onClick={() => handleCategoryClick("general-sports")}
           >
             General sports
+          </button>          <button
+            className="bg-teal-600 text-white py-2 px-4 rounded-lg hover:bg-pink-700 transition"
+            onClick={() => handleCategoryClick("image-quizes")}
+          >
+            Image Quizes
           </button>
         </div>
       </div>

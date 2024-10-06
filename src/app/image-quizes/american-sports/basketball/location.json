@@ -1,0 +1,123 @@
+[
+    {
+      "question": ["Atlanta"],
+      "answer": "Hawks"
+    },
+    {
+      "question": ["Boston"],
+      "answer": "Celtics"
+    },
+    {
+      "question": ["Brooklyn"],
+      "answer": "Nets"
+    },
+    {
+      "question": ["Charlotte"],
+      "answer": "Hornets"
+    },
+    {
+      "question": ["Chicago"],
+      "answer": "Bulls"
+    },
+    {
+      "question": ["Cleveland"],
+      "answer": "Cavaliers"
+    },
+    {
+      "question": ["Dallas"],
+      "answer": "Mavericks"
+    },
+    {
+      "question": ["Denver"],
+      "answer": "Nuggets"
+    },
+    {
+      "question": ["Detroit"],
+      "answer": "Pistons"
+    },
+    {
+      "question": ["Golden State"],
+      "answer": "Warriors"
+    },
+    {
+      "question": ["Houston"],
+      "answer": "Rockets"
+    },
+    {
+      "question": ["Indiana"],
+      "answer": "Pacers"
+    },
+    {
+      "question": ["Los Angeles (not Clippers)"],
+      "answer": "Lakers"
+    },
+    {
+      "question": ["Los Angeles (not Lakers)"],
+      "answer": "Clippers"
+    },
+    {
+      "question": ["Memphis"],
+      "answer": "Grizzlies"
+    },
+    {
+      "question": ["Miami"],
+      "answer": "Heat"
+    },
+    {
+      "question": ["Milwaukee"],
+      "answer": "Bucks"
+    },
+    {
+      "question": ["Minnesota"],
+      "answer": "Timberwolves"
+    },
+    {
+      "question": ["New Orleans"],
+      "answer": "Pelicans"
+    },
+    {
+      "question": ["New York (not Nets)"],
+      "answer": "Knicks"
+    },
+    {
+      "question": ["Oklahoma City"],
+      "answer": "Thunder"
+    },
+    {
+      "question": ["Orlando"],
+      "answer": "Magic"
+    },
+    {
+      "question": ["Philadelphia"],
+      "answer": "76ers"
+    },
+    {
+      "question": ["Phoenix"],
+      "answer": "Suns"
+    },
+    {
+      "question": ["Portland"],
+      "answer": "Trail Blazers"
+    },
+    {
+      "question": ["Sacramento"],
+      "answer": "Kings"
+    },
+    {
+      "question": ["San Antonio"],
+      "answer": "Spurs"
+    },
+    {
+      "question": ["Toronto"],
+      "answer": "Raptors"
+    },
+    {
+      "question": ["Utah"],
+      "answer": "Jazz"
+    },
+    {
+      "question": ["Washington"],
+      "answer": "Wizards"
+    }
+  ]
+  

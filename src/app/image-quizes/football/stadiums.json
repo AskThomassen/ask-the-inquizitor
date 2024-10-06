@@ -1,0 +1,114 @@
+[
+  {
+    "image": "manchester_united.jpeg",
+    "answers": ["Old Trafford", "Manchester United"]
+  },
+  {
+    "image": "liverpool.jpeg",
+    "answers": ["Anfield", "Liverpool"]
+  },
+  {
+    "image": "manchester_city.jpg",
+    "answers": ["Etihad Stadium", "Manchester City"]
+  },
+  {
+    "image": "arsenal.jpeg",
+    "answers": ["Emirates Stadium", "Arsenal"]
+  },
+  {
+    "image": "chelsea.jpg",
+    "answers": ["Stamford Bridge", "Chelsea"]
+  },
+  {
+    "image": "tottenham.jpeg",
+    "answers": ["Tottenham Hotspur Stadium", "Tottenham"]
+  },
+  {
+    "image": "newcastle.jpg",
+    "answers": ["St James' Park", "Newcastle"]
+  },
+  {
+    "image": "aston_villa.jpg",
+    "answers": ["Villa Park", "Aston Villa"]
+  },
+  {
+    "image": "everton.jpg",
+    "answers": ["Goodison Park", "Everton"]
+  },
+  {
+    "image": "leeds.jpg",
+    "answers": ["Elland Road", "Leeds"]
+  },
+  {
+    "image": "west_ham.jpeg",
+    "answers": ["London Stadium", "West Ham"]
+  },
+  {
+    "image": "leicester.webp",
+    "answers": ["King Power Stadium", "Leicester"]
+  },
+  {
+    "image": "crystal_palace.jpeg",
+    "answers": ["Selhurst Park", "Crystal Palace"]
+  },
+  {
+    "image": "wolves.jpeg",
+    "answers": ["Molineux Stadium", "Wolves"]
+  },
+  {
+    "image": "brighton.jpeg",
+    "answers": ["Amex Stadium", "Brighton"]
+  },
+  {
+    "image": "brentford.jpeg",
+    "answers": ["Brentford Community Stadium", "Brentford"]
+  },
+  {
+    "image": "fulham.jpeg",
+    "answers": ["Craven Cottage", "Fulham"]
+  },
+  {
+    "image": "burnley.jpeg",
+    "answers": ["Turf Moor", "Burnley"]
+  },
+  {
+    "image": "sheffield_united.jpeg",
+    "answers": ["Bramall Lane", "Sheffield United"]
+  },
+  {
+    "image": "luton_town.jpeg",
+    "answers": ["Kenilworth Road", "Luton Town"]
+  },
+  {
+    "image": "sheffield_wednesday.jpeg",
+    "answers": ["Hillsborough", "Sheffield Wednesday"]
+  },
+  {
+    "image": "nottingham_forest.jpeg",
+    "answers": ["City Ground", "Nottingham Forest"]
+  },
+  {
+    "image": "blackburn_rovers.jpeg",
+    "answers": ["Ewood Park", "Blackburn"]
+  },
+  {
+    "image": "sunderland.jpg",
+    "answers": ["Stadium of Light", "Sunderland"]
+  },
+  {
+    "image": "ipswhich.jpg",
+    "answers": ["Portman Road", "Ipswich Town"]
+  },
+  {
+    "image": "middlesbrough.jpeg",
+    "answers": ["Riverside Stadium", "Middlesbrough"]
+  },
+  {
+    "image": "derby_county.jpeg",
+    "answers": ["Pride Park", "Derby County"]
+  },
+  {
+    "image": "queens_park_rangers.jpg",
+    "answers": ["Loftus Road", "Queens Park Rangers"]
+  }
+]
