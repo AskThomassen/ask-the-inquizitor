@@ -35,6 +35,11 @@ export default function Landing(): JSX.Element {
           >
             🏈 American Sports
           </button>
+          <button className="bg-pink-400 text-white py-2 px-4 rounded-lg hover:bg-pink-600 transition"
+            onClick={() => handleCategoryClick("image-quizes/flags")}
+            >
+            Flags
+          </button>
         </div>
       </div>
     </Layout>

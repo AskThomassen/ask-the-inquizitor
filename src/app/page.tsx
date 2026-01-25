@@ -63,7 +63,7 @@ export default function Landing(): JSX.Element {
             className="glass-btn glass-btn-yellow py-3 px-4"
             onClick={() => handleCategoryClick("usa")}
           >
-            🇺🇸 USA
+            USA
           </button>
           <button
             className="glass-btn glass-btn-pink py-3 px-4"

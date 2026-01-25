@@ -1,0 +1,198 @@
+[
+  {
+    "question": ["Kabul"],
+    "answer": "Afghanistan"
+  },
+  {
+    "question": ["Yerevan"],
+    "answer": "Armenia"
+  },
+  {
+    "question": ["Baku"],
+    "answer": "Azerbaijan"
+  },
+  {
+    "question": ["Manama"],
+    "answer": "Bahrain"
+  },
+  {
+    "question": ["Dhaka"],
+    "answer": "Bangladesh"
+  },
+  {
+    "question": ["Thimphu"],
+    "answer": "Bhutan"
+  },
+  {
+    "question": ["Bandar Seri Begawan"],
+    "answer": "Brunei"
+  },
+  {
+    "question": ["Phnom Penh"],
+    "answer": "Cambodia"
+  },
+  {
+    "question": ["Beijing"],
+    "answer": "China"
+  },
+  {
+    "question": ["Nicosia"],
+    "answer": "Cyprus"
+  },
+  {
+    "question": ["Tbilisi"],
+    "answer": "Georgia"
+  },
+  {
+    "question": ["New Delhi"],
+    "answer": "India"
+  },
+  {
+    "question": ["Jakarta"],
+    "answer": "Indonesia"
+  },
+  {
+    "question": ["Tehran"],
+    "answer": "Iran"
+  },
+  {
+    "question": ["Baghdad"],
+    "answer": "Iraq"
+  },
+  {
+    "question": ["Jerusalem"],
+    "answer": "Israel"
+  },
+  {
+    "question": ["Tokyo"],
+    "answer": "Japan"
+  },
+  {
+    "question": ["Amman"],
+    "answer": "Jordan"
+  },
+  {
+    "question": ["Nur-Sultan"],
+    "answer": "Kazakhstan"
+  },
+  {
+    "question": ["Kuwait City"],
+    "answer": "Kuwait"
+  },
+  {
+    "question": ["Bishkek"],
+    "answer": "Kyrgyzstan"
+  },
+  {
+    "question": ["Vientiane"],
+    "answer": "Laos"
+  },
+  {
+    "question": ["Beirut"],
+    "answer": "Lebanon"
+  },
+  {
+    "question": ["Kuala Lumpur"],
+    "answer": "Malaysia"
+  },
+  {
+    "question": ["Malé"],
+    "answer": "Maldives"
+  },
+  {
+    "question": ["Ulaanbaatar"],
+    "answer": "Mongolia"
+  },
+  {
+    "question": ["Naypyidaw"],
+    "answer": "Myanmar"
+  },
+  {
+    "question": ["Kathmandu"],
+    "answer": "Nepal"
+  },
+  {
+    "question": ["Pyongyang"],
+    "answer": "North Korea"
+  },
+  {
+    "question": ["Muscat"],
+    "answer": "Oman"
+  },
+  {
+    "question": ["Islamabad"],
+    "answer": "Pakistan"
+  },
+  {
+    "question": ["Ramallah"],
+    "answer": "Palestine"
+  },
+  {
+    "question": ["Manila"],
+    "answer": "Philippines"
+  },
+  {
+    "question": ["Doha"],
+    "answer": "Qatar"
+  },
+  {
+    "question": ["Riyadh"],
+    "answer": "Saudi Arabia"
+  },
+  {
+    "question": ["Singapore"],
+    "answer": "Singapore"
+  },
+  {
+    "question": ["Seoul"],
+    "answer": "South Korea"
+  },
+  {
+    "question": ["Colombo"],
+    "answer": "Sri Lanka"
+  },
+  {
+    "question": ["Damascus"],
+    "answer": "Syria"
+  },
+  {
+    "question": ["Taipei"],
+    "answer": "Taiwan"
+  },
+  {
+    "question": ["Dushanbe"],
+    "answer": "Tajikistan"
+  },
+  {
+    "question": ["Bangkok"],
+    "answer": "Thailand"
+  },
+  {
+    "question": ["Dili"],
+    "answer": "Timor-Leste"
+  },
+  {
+    "question": ["Ankara"],
+    "answer": "Turkey"
+  },
+  {
+    "question": ["Ashgabat"],
+    "answer": "Turkmenistan"
+  },
+  {
+    "question": ["Abu Dhabi"],
+    "answer": "United Arab Emirates"
+  },
+  {
+    "question": ["Tashkent"],
+    "answer": "Uzbekistan"
+  },
+  {
+    "question": ["Hanoi"],
+    "answer": "Vietnam"
+  },
+  {
+    "question": ["Sana'a"],
+    "answer": "Yemen"
+  }
+]

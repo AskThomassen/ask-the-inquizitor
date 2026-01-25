@@ -1,0 +1,1346 @@
+[
+    {
+        "image": "albania.jpg",
+        "answers": [
+            "Albania",
+            "Albania"
+        ]
+    },
+    {
+        "image": "algeria.jpg",
+        "answers": [
+            "Algeria",
+            "Algerie"
+        ]
+    },
+    {
+        "image": "andorra.jpg",
+        "answers": [
+            "Andorra",
+            "Andorra"
+        ]
+    },
+    {
+        "image": "angola.jpg",
+        "answers": [
+            "Angola",
+            "Angola"
+        ]
+    },
+    {
+        "image": "antigua_and_barbuda.jpg",
+        "answers": [
+            "Antigua and Barbuda",
+            "Antigua og Barbuda"
+        ]
+    },
+    {
+        "image": "argentina.jpg",
+        "answers": [
+            "Argentina",
+            "Argentina"
+        ]
+    },
+    {
+        "image": "armenia.jpg",
+        "answers": [
+            "Armenia",
+            "Armenia"
+        ]
+    },
+    {
+        "image": "australia.jpg",
+        "answers": [
+            "Australia",
+            "Australia"
+        ]
+    },
+    {
+        "image": "austria.jpg",
+        "answers": [
+            "Austria",
+            "\u00d8sterrike"
+        ]
+    },
+    {
+        "image": "azerbaijan.jpg",
+        "answers": [
+            "Azerbaijan",
+            "Aserbajdsjan"
+        ]
+    },
+    {
+        "image": "bahamas.jpg",
+        "answers": [
+            "Bahamas",
+            ""
+        ]
+    },
+    {
+        "image": "bahrain.jpg",
+        "answers": [
+            "Bahrain",
+            ""
+        ]
+    },
+    {
+        "image": "bangladesh.jpg",
+        "answers": [
+            "Bangladesh",
+            ""
+        ]
+    },
+    {
+        "image": "barbados.jpg",
+        "answers": [
+            "Barbados",
+            ""
+        ]
+    },
+    {
+        "image": "belarus.jpg",
+        "answers": [
+            "Belarus",
+            ""
+        ]
+    },
+    {
+        "image": "belgium.jpg",
+        "answers": [
+            "Belgium",
+            ""
+        ]
+    },
+    {
+        "image": "belize.jpg",
+        "answers": [
+            "Belize",
+            ""
+        ]
+    },
+    {
+        "image": "benin.jpg",
+        "answers": [
+            "Benin",
+            ""
+        ]
+    },
+    {
+        "image": "bhutan.jpg",
+        "answers": [
+            "Bhutan",
+            ""
+        ]
+    },
+    {
+        "image": "bolivia.jpg",
+        "answers": [
+            "Bolivia",
+            ""
+        ]
+    },
+    {
+        "image": "bosnia_and_herzegovina.jpg",
+        "answers": [
+            "Bosnia and Herzegovina",
+            ""
+        ]
+    },
+    {
+        "image": "botswana.jpg",
+        "answers": [
+            "Botswana",
+            ""
+        ]
+    },
+    {
+        "image": "brazil.jpg",
+        "answers": [
+            "Brazil",
+            ""
+        ]
+    },
+    {
+        "image": "brunei.jpg",
+        "answers": [
+            "Brunei",
+            ""
+        ]
+    },
+    {
+        "image": "bulgaria.jpg",
+        "answers": [
+            "Bulgaria",
+            ""
+        ]
+    },
+    {
+        "image": "burkina_faso.jpg",
+        "answers": [
+            "Burkina Faso",
+            ""
+        ]
+    },
+    {
+        "image": "burundi.jpg",
+        "answers": [
+            "Burundi",
+            ""
+        ]
+    },
+    {
+        "image": "cabo_verde.jpg",
+        "answers": [
+            "Cabo Verde",
+            ""
+        ]
+    },
+    {
+        "image": "cambodia.jpg",
+        "answers": [
+            "Cambodia",
+            ""
+        ]
+    },
+    {
+        "image": "cameroon.jpg",
+        "answers": [
+            "Cameroon",
+            ""
+        ]
+    },
+    {
+        "image": "canada.jpg",
+        "answers": [
+            "Canada",
+            ""
+        ]
+    },
+    {
+        "image": "central_african_republic.jpg",
+        "answers": [
+            "Central African Republic",
+            ""
+        ]
+    },
+    {
+        "image": "chad.jpg",
+        "answers": [
+            "Chad",
+            ""
+        ]
+    },
+    {
+        "image": "chile.jpg",
+        "answers": [
+            "Chile",
+            ""
+        ]
+    },
+    {
+        "image": "china.jpg",
+        "answers": [
+            "China",
+            ""
+        ]
+    },
+    {
+        "image": "colombia.jpg",
+        "answers": [
+            "Colombia",
+            ""
+        ]
+    },
+    {
+        "image": "comoros.jpg",
+        "answers": [
+            "Comoros",
+            ""
+        ]
+    },
+    {
+        "image": "congo.jpg",
+        "answers": [
+            "Congo",
+            ""
+        ]
+    },
+    {
+        "image": "costa_rica.jpg",
+        "answers": [
+            "Costa Rica",
+            ""
+        ]
+    },
+    {
+        "image": "croatia.jpg",
+        "answers": [
+            "Croatia",
+            ""
+        ]
+    },
+    {
+        "image": "cuba.jpg",
+        "answers": [
+            "Cuba",
+            ""
+        ]
+    },
+    {
+        "image": "cyprus.jpg",
+        "answers": [
+            "Cyprus",
+            ""
+        ]
+    },
+    {
+        "image": "czech_republic.jpg",
+        "answers": [
+            "Czech Republic",
+            ""
+        ]
+    },
+    {
+        "image": "denmark.jpg",
+        "answers": [
+            "Denmark",
+            ""
+        ]
+    },
+    {
+        "image": "djibouti.jpg",
+        "answers": [
+            "Djibouti",
+            ""
+        ]
+    },
+    {
+        "image": "dominica.jpg",
+        "answers": [
+            "Dominica",
+            ""
+        ]
+    },
+    {
+        "image": "dominican_republic.jpg",
+        "answers": [
+            "Dominican Republic",
+            ""
+        ]
+    },
+    {
+        "image": "ecuador.jpg",
+        "answers": [
+            "Ecuador",
+            ""
+        ]
+    },
+    {
+        "image": "egypt.jpg",
+        "answers": [
+            "Egypt",
+            ""
+        ]
+    },
+    {
+        "image": "el_salvador.jpg",
+        "answers": [
+            "El Salvador",
+            ""
+        ]
+    },
+    {
+        "image": "equatorial_guinea.jpg",
+        "answers": [
+            "Equatorial Guinea",
+            ""
+        ]
+    },
+    {
+        "image": "eritrea.jpg",
+        "answers": [
+            "Eritrea",
+            ""
+        ]
+    },
+    {
+        "image": "estonia.jpg",
+        "answers": [
+            "Estonia",
+            ""
+        ]
+    },
+    {
+        "image": "eswatini.jpg",
+        "answers": [
+            "Eswatini",
+            ""
+        ]
+    },
+    {
+        "image": "ethiopia.jpg",
+        "answers": [
+            "Ethiopia",
+            ""
+        ]
+    },
+    {
+        "image": "fiji.jpg",
+        "answers": [
+            "Fiji",
+            ""
+        ]
+    },
+    {
+        "image": "finland.jpg",
+        "answers": [
+            "Finland",
+            ""
+        ]
+    },
+    {
+        "image": "france.jpg",
+        "answers": [
+            "France",
+            ""
+        ]
+    },
+    {
+        "image": "gabon.jpg",
+        "answers": [
+            "Gabon",
+            ""
+        ]
+    },
+    {
+        "image": "gambia.jpg",
+        "answers": [
+            "Gambia",
+            ""
+        ]
+    },
+    {
+        "image": "georgia.jpg",
+        "answers": [
+            "Georgia",
+            ""
+        ]
+    },
+    {
+        "image": "germany.jpg",
+        "answers": [
+            "Germany",
+            ""
+        ]
+    },
+    {
+        "image": "ghana.jpg",
+        "answers": [
+            "Ghana",
+            ""
+        ]
+    },
+    {
+        "image": "greece.jpg",
+        "answers": [
+            "Greece",
+            ""
+        ]
+    },
+    {
+        "image": "grenada.jpg",
+        "answers": [
+            "Grenada",
+            ""
+        ]
+    },
+    {
+        "image": "guatemala.jpg",
+        "answers": [
+            "Guatemala",
+            ""
+        ]
+    },
+    {
+        "image": "guinea.jpg",
+        "answers": [
+            "Guinea",
+            ""
+        ]
+    },
+    {
+        "image": "guinea-bissau.jpg",
+        "answers": [
+            "Guinea-Bissau",
+            ""
+        ]
+    },
+    {
+        "image": "guyana.jpg",
+        "answers": [
+            "Guyana",
+            ""
+        ]
+    },
+    {
+        "image": "haiti.jpg",
+        "answers": [
+            "Haiti",
+            ""
+        ]
+    },
+    {
+        "image": "honduras.jpg",
+        "answers": [
+            "Honduras",
+            ""
+        ]
+    },
+    {
+        "image": "hungary.jpg",
+        "answers": [
+            "Hungary",
+            ""
+        ]
+    },
+    {
+        "image": "iceland.jpg",
+        "answers": [
+            "Iceland",
+            ""
+        ]
+    },
+    {
+        "image": "india.jpg",
+        "answers": [
+            "India",
+            ""
+        ]
+    },
+    {
+        "image": "indonesia.jpg",
+        "answers": [
+            "Indonesia",
+            ""
+        ]
+    },
+    {
+        "image": "iran.jpg",
+        "answers": [
+            "Iran",
+            ""
+        ]
+    },
+    {
+        "image": "iraq.jpg",
+        "answers": [
+            "Iraq",
+            ""
+        ]
+    },
+    {
+        "image": "ireland.jpg",
+        "answers": [
+            "Ireland",
+            ""
+        ]
+    },
+    {
+        "image": "israel.jpg",
+        "answers": [
+            "Israel",
+            ""
+        ]
+    },
+    {
+        "image": "italy.jpg",
+        "answers": [
+            "Italy",
+            ""
+        ]
+    },
+    {
+        "image": "jamaica.jpg",
+        "answers": [
+            "Jamaica",
+            ""
+        ]
+    },
+    {
+        "image": "japan.jpg",
+        "answers": [
+            "Japan",
+            ""
+        ]
+    },
+    {
+        "image": "jordan.jpg",
+        "answers": [
+            "Jordan",
+            ""
+        ]
+    },
+    {
+        "image": "kazakhstan.jpg",
+        "answers": [
+            "Kazakhstan",
+            ""
+        ]
+    },
+    {
+        "image": "kenya.jpg",
+        "answers": [
+            "Kenya",
+            ""
+        ]
+    },
+    {
+        "image": "kiribati.jpg",
+        "answers": [
+            "Kiribati",
+            ""
+        ]
+    },
+    {
+        "image": "korea_north.jpg",
+        "answers": [
+            "Korea North",
+            ""
+        ]
+    },
+    {
+        "image": "korea_south.jpg",
+        "answers": [
+            "Korea South",
+            ""
+        ]
+    },
+    {
+        "image": "kuwait.jpg",
+        "answers": [
+            "Kuwait",
+            ""
+        ]
+    },
+    {
+        "image": "kyrgyzstan.jpg",
+        "answers": [
+            "Kyrgyzstan",
+            ""
+        ]
+    },
+    {
+        "image": "laos.jpg",
+        "answers": [
+            "Laos",
+            ""
+        ]
+    },
+    {
+        "image": "latvia.jpg",
+        "answers": [
+            "Latvia",
+            ""
+        ]
+    },
+    {
+        "image": "lebanon.jpg",
+        "answers": [
+            "Lebanon",
+            ""
+        ]
+    },
+    {
+        "image": "lesotho.jpg",
+        "answers": [
+            "Lesotho",
+            ""
+        ]
+    },
+    {
+        "image": "liberia.jpg",
+        "answers": [
+            "Liberia",
+            ""
+        ]
+    },
+    {
+        "image": "libya.jpg",
+        "answers": [
+            "Libya",
+            ""
+        ]
+    },
+    {
+        "image": "liechtenstein.jpg",
+        "answers": [
+            "Liechtenstein",
+            ""
+        ]
+    },
+    {
+        "image": "lithuania.jpg",
+        "answers": [
+            "Lithuania",
+            ""
+        ]
+    },
+    {
+        "image": "luxembourg.jpg",
+        "answers": [
+            "Luxembourg",
+            ""
+        ]
+    },
+    {
+        "image": "madagascar.jpg",
+        "answers": [
+            "Madagascar",
+            ""
+        ]
+    },
+    {
+        "image": "malawi.jpg",
+        "answers": [
+            "Malawi",
+            ""
+        ]
+    },
+    {
+        "image": "malaysia.jpg",
+        "answers": [
+            "Malaysia",
+            ""
+        ]
+    },
+    {
+        "image": "maldives.jpg",
+        "answers": [
+            "Maldives",
+            ""
+        ]
+    },
+    {
+        "image": "mali.jpg",
+        "answers": [
+            "Mali",
+            ""
+        ]
+    },
+    {
+        "image": "malta.jpg",
+        "answers": [
+            "Malta",
+            ""
+        ]
+    },
+    {
+        "image": "marshall_islands.jpg",
+        "answers": [
+            "Marshall Islands",
+            ""
+        ]
+    },
+    {
+        "image": "mauritania.jpg",
+        "answers": [
+            "Mauritania",
+            ""
+        ]
+    },
+    {
+        "image": "mauritius.jpg",
+        "answers": [
+            "Mauritius",
+            ""
+        ]
+    },
+    {
+        "image": "mexico.jpg",
+        "answers": [
+            "Mexico",
+            ""
+        ]
+    },
+    {
+        "image": "micronesia.jpg",
+        "answers": [
+            "Micronesia",
+            ""
+        ]
+    },
+    {
+        "image": "moldova.jpg",
+        "answers": [
+            "Moldova",
+            ""
+        ]
+    },
+    {
+        "image": "monaco.jpg",
+        "answers": [
+            "Monaco",
+            ""
+        ]
+    },
+    {
+        "image": "mongolia.jpg",
+        "answers": [
+            "Mongolia",
+            ""
+        ]
+    },
+    {
+        "image": "montenegro.jpg",
+        "answers": [
+            "Montenegro",
+            ""
+        ]
+    },
+    {
+        "image": "morocco.jpg",
+        "answers": [
+            "Morocco",
+            ""
+        ]
+    },
+    {
+        "image": "mozambique.jpg",
+        "answers": [
+            "Mozambique",
+            ""
+        ]
+    },
+    {
+        "image": "myanmar.jpg",
+        "answers": [
+            "Myanmar",
+            ""
+        ]
+    },
+    {
+        "image": "namibia.jpg",
+        "answers": [
+            "Namibia",
+            ""
+        ]
+    },
+    {
+        "image": "nauru.jpg",
+        "answers": [
+            "Nauru",
+            ""
+        ]
+    },
+    {
+        "image": "nepal.jpg",
+        "answers": [
+            "Nepal",
+            ""
+        ]
+    },
+    {
+        "image": "netherlands.jpg",
+        "answers": [
+            "Netherlands",
+            ""
+        ]
+    },
+    {
+        "image": "new_zealand.jpg",
+        "answers": [
+            "New Zealand",
+            ""
+        ]
+    },
+    {
+        "image": "nicaragua.jpg",
+        "answers": [
+            "Nicaragua",
+            ""
+        ]
+    },
+    {
+        "image": "niger.jpg",
+        "answers": [
+            "Niger",
+            ""
+        ]
+    },
+    {
+        "image": "nigeria.jpg",
+        "answers": [
+            "Nigeria",
+            ""
+        ]
+    },
+    {
+        "image": "north_macedonia.jpg",
+        "answers": [
+            "North Macedonia",
+            ""
+        ]
+    },
+    {
+        "image": "norway.jpg",
+        "answers": [
+            "Norway",
+            ""
+        ]
+    },
+    {
+        "image": "oman.jpg",
+        "answers": [
+            "Oman",
+            ""
+        ]
+    },
+    {
+        "image": "pakistan.jpg",
+        "answers": [
+            "Pakistan",
+            ""
+        ]
+    },
+    {
+        "image": "palau.jpg",
+        "answers": [
+            "Palau",
+            ""
+        ]
+    },
+    {
+        "image": "palestine.jpg",
+        "answers": [
+            "Palestine",
+            ""
+        ]
+    },
+    {
+        "image": "panama.jpg",
+        "answers": [
+            "Panama",
+            ""
+        ]
+    },
+    {
+        "image": "papua_new_guinea.jpg",
+        "answers": [
+            "Papua New Guinea",
+            ""
+        ]
+    },
+    {
+        "image": "paraguay.jpg",
+        "answers": [
+            "Paraguay",
+            ""
+        ]
+    },
+    {
+        "image": "peru.jpg",
+        "answers": [
+            "Peru",
+            ""
+        ]
+    },
+    {
+        "image": "philippines.jpg",
+        "answers": [
+            "Philippines",
+            ""
+        ]
+    },
+    {
+        "image": "poland.jpg",
+        "answers": [
+            "Poland",
+            ""
+        ]
+    },
+    {
+        "image": "portugal.jpg",
+        "answers": [
+            "Portugal",
+            ""
+        ]
+    },
+    {
+        "image": "qatar.jpg",
+        "answers": [
+            "Qatar",
+            ""
+        ]
+    },
+    {
+        "image": "romania.jpg",
+        "answers": [
+            "Romania",
+            ""
+        ]
+    },
+    {
+        "image": "russia.jpg",
+        "answers": [
+            "Russia",
+            ""
+        ]
+    },
+    {
+        "image": "rwanda.jpg",
+        "answers": [
+            "Rwanda",
+            ""
+        ]
+    },
+    {
+        "image": "saint_kitts_and_nevis.jpg",
+        "answers": [
+            "Saint Kitts and Nevis",
+            ""
+        ]
+    },
+    {
+        "image": "saint_lucia.jpg",
+        "answers": [
+            "Saint Lucia",
+            ""
+        ]
+    },
+    {
+        "image": "saint_vincent_and_the_grenadines.jpg",
+        "answers": [
+            "Saint Vincent and the Grenadines",
+            ""
+        ]
+    },
+    {
+        "image": "samoa.jpg",
+        "answers": [
+            "Samoa",
+            ""
+        ]
+    },
+    {
+        "image": "san_marino.jpg",
+        "answers": [
+            "San Marino",
+            ""
+        ]
+    },
+    {
+        "image": "sao_tome_and_principe.jpg",
+        "answers": [
+            "Sao Tome and Principe",
+            ""
+        ]
+    },
+    {
+        "image": "saudi_arabia.jpg",
+        "answers": [
+            "Saudi Arabia",
+            ""
+        ]
+    },
+    {
+        "image": "senegal.jpg",
+        "answers": [
+            "Senegal",
+            ""
+        ]
+    },
+    {
+        "image": "serbia.jpg",
+        "answers": [
+            "Serbia",
+            ""
+        ]
+    },
+    {
+        "image": "seychelles.jpg",
+        "answers": [
+            "Seychelles",
+            ""
+        ]
+    },
+    {
+        "image": "sierra_leone.jpg",
+        "answers": [
+            "Sierra Leone",
+            ""
+        ]
+    },
+    {
+        "image": "singapore.jpg",
+        "answers": [
+            "Singapore",
+            ""
+        ]
+    },
+    {
+        "image": "slovakia.jpg",
+        "answers": [
+            "Slovakia",
+            ""
+        ]
+    },
+    {
+        "image": "slovenia.jpg",
+        "answers": [
+            "Slovenia",
+            ""
+        ]
+    },
+    {
+        "image": "solomon_islands.jpg",
+        "answers": [
+            "Solomon Islands",
+            ""
+        ]
+    },
+    {
+        "image": "somalia.jpg",
+        "answers": [
+            "Somalia",
+            ""
+        ]
+    },
+    {
+        "image": "south_africa.jpg",
+        "answers": [
+            "South Africa",
+            ""
+        ]
+    },
+    {
+        "image": "south_sudan.jpg",
+        "answers": [
+            "South Sudan",
+            ""
+        ]
+    },
+    {
+        "image": "spain.jpg",
+        "answers": [
+            "Spain",
+            ""
+        ]
+    },
+    {
+        "image": "sri_lanka.jpg",
+        "answers": [
+            "Sri Lanka",
+            ""
+        ]
+    },
+    {
+        "image": "sudan.jpg",
+        "answers": [
+            "Sudan",
+            ""
+        ]
+    },
+    {
+        "image": "suriname.jpg",
+        "answers": [
+            "Suriname",
+            ""
+        ]
+    },
+    {
+        "image": "sweden.jpg",
+        "answers": [
+            "Sweden",
+            ""
+        ]
+    },
+    {
+        "image": "switzerland.jpg",
+        "answers": [
+            "Switzerland",
+            ""
+        ]
+    },
+    {
+        "image": "syria.jpg",
+        "answers": [
+            "Syria",
+            ""
+        ]
+    },
+    {
+        "image": "taiwan.jpg",
+        "answers": [
+            "Taiwan",
+            ""
+        ]
+    },
+    {
+        "image": "tajikistan.jpg",
+        "answers": [
+            "Tajikistan",
+            ""
+        ]
+    },
+    {
+        "image": "tanzania.jpg",
+        "answers": [
+            "Tanzania",
+            ""
+        ]
+    },
+    {
+        "image": "thailand.jpg",
+        "answers": [
+            "Thailand",
+            ""
+        ]
+    },
+    {
+        "image": "togo.jpg",
+        "answers": [
+            "Togo",
+            ""
+        ]
+    },
+    {
+        "image": "tonga.jpg",
+        "answers": [
+            "Tonga",
+            ""
+        ]
+    },
+    {
+        "image": "trinidad_and_tobago.jpg",
+        "answers": [
+            "Trinidad and Tobago",
+            ""
+        ]
+    },
+    {
+        "image": "tunisia.jpg",
+        "answers": [
+            "Tunisia",
+            ""
+        ]
+    },
+    {
+        "image": "turkey.jpg",
+        "answers": [
+            "Turkey",
+            ""
+        ]
+    },
+    {
+        "image": "turkmenistan.jpg",
+        "answers": [
+            "Turkmenistan",
+            ""
+        ]
+    },
+    {
+        "image": "tuvalu.jpg",
+        "answers": [
+            "Tuvalu",
+            ""
+        ]
+    },
+    {
+        "image": "uganda.jpg",
+        "answers": [
+            "Uganda",
+            ""
+        ]
+    },
+    {
+        "image": "ukraine.jpg",
+        "answers": [
+            "Ukraine",
+            ""
+        ]
+    },
+    {
+        "image": "united_arab_emirates.jpg",
+        "answers": [
+            "United Arab Emirates",
+            ""
+        ]
+    },
+    {
+        "image": "united_kingdom.jpg",
+        "answers": [
+            "United Kingdom",
+            ""
+        ]
+    },
+    {
+        "image": "united_states.jpg",
+        "answers": [
+            "United States",
+            ""
+        ]
+    },
+    {
+        "image": "uruguay.jpg",
+        "answers": [
+            "Uruguay",
+            ""
+        ]
+    },
+    {
+        "image": "uzbekistan.jpg",
+        "answers": [
+            "Uzbekistan",
+            ""
+        ]
+    },
+    {
+        "image": "vanuatu.jpg",
+        "answers": [
+            "Vanuatu",
+            ""
+        ]
+    },
+    {
+        "image": "vatican_city.jpg",
+        "answers": [
+            "Vatican City",
+            ""
+        ]
+    },
+    {
+        "image": "venezuela.jpg",
+        "answers": [
+            "Venezuela",
+            ""
+        ]
+    },
+    {
+        "image": "vietnam.jpg",
+        "answers": [
+            "Vietnam",
+            ""
+        ]
+    },
+    {
+        "image": "yemen.jpg",
+        "answers": [
+            "Yemen",
+            ""
+        ]
+    },
+    {
+        "image": "zambia.jpg",
+        "answers": [
+            "Zambia",
+            ""
+        ]
+    },
+    {
+        "image": "zimbabwe.jpg",
+        "answers": [
+            "Zimbabwe",
+            "Zimbabwe"
+        ]
+    }
+]

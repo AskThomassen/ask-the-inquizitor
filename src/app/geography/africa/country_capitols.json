@@ -1,0 +1,214 @@
+[
+  {
+    "question": ["Algiers"],
+    "answer": "Algeria"
+  },
+  {
+    "question": ["Luanda"],
+    "answer": "Angola"
+  },
+  {
+    "question": ["Porto-Novo"],
+    "answer": "Benin"
+  },
+  {
+    "question": ["Gaborone"],
+    "answer": "Botswana"
+  },
+  {
+    "question": ["Ouagadougou"],
+    "answer": "Burkina Faso"
+  },
+  {
+    "question": ["Bujumbura"],
+    "answer": "Burundi"
+  },
+  {
+    "question": ["Praia"],
+    "answer": "Cape Verde"
+  },
+  {
+    "question": ["Yaoundé"],
+    "answer": "Cameroon"
+  },
+  {
+    "question": ["Bangui"],
+    "answer": "Central African Republic"
+  },
+  {
+    "question": ["N'Djamena"],
+    "answer": "Chad"
+  },
+  {
+    "question": ["Moroni"],
+    "answer": "Comoros"
+  },
+  {
+    "question": ["Brazzaville"],
+    "answer": "Congo"
+  },
+  {
+    "question": ["Kinshasa"],
+    "answer": "Democratic Republic of the Congo"
+  },
+  {
+    "question": ["Djibouti"],
+    "answer": "Djibouti"
+  },
+  {
+    "question": ["Cairo"],
+    "answer": "Egypt"
+  },
+  {
+    "question": ["Malabo"],
+    "answer": "Equatorial Guinea"
+  },
+  {
+    "question": ["Asmara"],
+    "answer": "Eritrea"
+  },
+  {
+    "question": ["Mbabane"],
+    "answer": "Eswatini"
+  },
+  {
+    "question": ["Addis Ababa"],
+    "answer": "Ethiopia"
+  },
+  {
+    "question": ["Libreville"],
+    "answer": "Gabon"
+  },
+  {
+    "question": ["Banjul"],
+    "answer": "Gambia"
+  },
+  {
+    "question": ["Accra"],
+    "answer": "Ghana"
+  },
+  {
+    "question": ["Conakry"],
+    "answer": "Guinea"
+  },
+  {
+    "question": ["Bissau"],
+    "answer": "Guinea-Bissau"
+  },
+  {
+    "question": ["Nairobi"],
+    "answer": "Kenya"
+  },
+  {
+    "question": ["Maseru"],
+    "answer": "Lesotho"
+  },
+  {
+    "question": ["Monrovia"],
+    "answer": "Liberia"
+  },
+  {
+    "question": ["Tripoli"],
+    "answer": "Libya"
+  },
+  {
+    "question": ["Antananarivo"],
+    "answer": "Madagascar"
+  },
+  {
+    "question": ["Lilongwe"],
+    "answer": "Malawi"
+  },
+  {
+    "question": ["Bamako"],
+    "answer": "Mali"
+  },
+  {
+    "question": ["Nouakchott"],
+    "answer": "Mauritania"
+  },
+  {
+    "question": ["Port Louis"],
+    "answer": "Mauritius"
+  },
+  {
+    "question": ["Rabat"],
+    "answer": "Morocco"
+  },
+  {
+    "question": ["Maputo"],
+    "answer": "Mozambique"
+  },
+  {
+    "question": ["Windhoek"],
+    "answer": "Namibia"
+  },
+  {
+    "question": ["Niamey"],
+    "answer": "Niger"
+  },
+  {
+    "question": ["Abuja"],
+    "answer": "Nigeria"
+  },
+  {
+    "question": ["Kigali"],
+    "answer": "Rwanda"
+  },
+  {
+    "question": ["Sao Tome"],
+    "answer": "São Tomé and Príncipe"
+  },
+  {
+    "question": ["Dakar"],
+    "answer": "Senegal"
+  },
+  {
+    "question": ["Victoria"],
+    "answer": "Seychelles"
+  },
+  {
+    "question": ["Freetown"],
+    "answer": "Sierra Leone"
+  },
+  {
+    "question": ["Mogadishu"],
+    "answer": "Somalia"
+  },
+  {
+    "question": ["Pretoria"],
+    "answer": "South Africa"
+  },
+  {
+    "question": ["Juba"],
+    "answer": "South Sudan"
+  },
+  {
+    "question": ["Khartoum"],
+    "answer": "Sudan"
+  },
+  {
+    "question": ["Dodoma"],
+    "answer": "Tanzania"
+  },
+  {
+    "question": ["Lomé"],
+    "answer": "Togo"
+  },
+  {
+    "question": ["Tunis"],
+    "answer": "Tunisia"
+  },
+  {
+    "question": ["Kampala"],
+    "answer": "Uganda"
+  },
+  {
+    "question": ["Lusaka"],
+    "answer": "Zambia"
+  },
+  {
+    "question": ["Harare"],
+    "answer": "Zimbabwe"
+  }
+]

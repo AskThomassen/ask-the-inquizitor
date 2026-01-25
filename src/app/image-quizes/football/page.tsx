@@ -1,16 +1,16 @@
 "use client";
 import { useEffect, useState } from "react";
-import Quiz from "../../components/image_quiz";
 import Layout from "../../components/layout";
+import PictureQuiz from "../../components/image_quiz";
 
-interface Stadium {
-  question: string[];
-  answer: string;
+interface StadiumQuizData {
+  image: string;
+  answers: string[];
 }
 
 export default function Stadiums() {
-  const [stadiums, setStadiums] = useState<Stadium[]>([]);
-  const [usedQuestions, setUsedQuestions] = useState<Stadium[]>([]);
+  const [stadiums, setStadiums] = useState<StadiumQuizData[]>([]);
+  const [usedQuestions, setUsedQuestions] = useState<StadiumQuizData[]>([]);
   const imagesFolder = "/images/football_stadiums";
 
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function Stadiums() {
       .catch((error) => console.error("Error loading stadiums:", error));
   }, []);
 
-  const shuffleArray = (array: Stadium[]) => {
+  const shuffleArray = (array: StadiumQuizData[]) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
@@ -30,17 +30,16 @@ export default function Stadiums() {
     return array;
   };
 
-  const handleQuestionUsed = (question: Stadium) => {
+  const handleQuestionUsed = (question: StadiumQuizData) => {
     setUsedQuestions((prev) => [...prev, question]);
   };
 
   return (
     <Layout>
       {stadiums.length > 0 && (
-        <Quiz
+        <PictureQuiz
           data={stadiums.filter((s) => !usedQuestions.includes(s))}
-          imageFolder={imagesFolder} // Pass the images folder path
-          questionTitle="Stadium:"
+          imageFolder={imagesFolder}
           inputPlaceholder="Enter football team or name of stadium"
           quizTitle="Football Stadium Quiz"
         />
