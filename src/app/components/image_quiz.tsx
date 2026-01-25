@@ -85,25 +85,25 @@ export default function PictureQuiz({
 
   if (quizComplete) {
     return (
-      <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-6">Quiz Complete!</h1>
-        <p className="text-lg mb-4 text-black">
+      <div className="glass-card-strong p-8 max-w-lg w-full text-center">
+        <h1 className="text-4xl font-bold text-white text-glow mb-6">Quiz Complete!</h1>
+        <p className="text-lg mb-4 text-gray-200">
           Your Score: {score}/{questions.length}
         </p>
 
         {wrongAnswers.length > 0 && (
           <div className="text-left">
-            <h2 className="text-2xl text-black font-bold mb-4">
+            <h2 className="text-2xl text-white font-bold mb-4">
               Review of Incorrect Answers:
             </h2>
             {wrongAnswers.map((question, index) => (
-              <div key={index} className="mb-4">
+              <div key={index} className="mb-4 glass-card p-4">
                 <img
                   src={getImageUrl(question.image)}
                   alt="Incorrect question"
-                  className="w-40 h-40 object-cover mx-auto"
+                  className="w-40 h-40 object-cover mx-auto rounded-lg"
                 />
-                <p className="text-red-600">
+                <p className="text-red-400 mt-2">
                   Correct Answers: {question.answers.join(", ")}
                 </p>
               </div>
@@ -113,7 +113,7 @@ export default function PictureQuiz({
 
         <button
           onClick={resetQuiz}
-          className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition mt-6"
+          className="glass-btn glass-btn-blue py-2 px-6 mt-6"
         >
           Try Again
         </button>
@@ -121,18 +121,18 @@ export default function PictureQuiz({
     );
   }
 
-  if (questions.length === 0) return <div>Loading...</div>;
+  if (questions.length === 0) return <div className="text-white text-xl">Loading...</div>;
 
   const currentImageUrl = getImageUrl(questions[currentQuestionIndex]?.image);
 
   return (
-    <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full text-center">
-      <h1 className="text-4xl font-bold text-gray-800 mb-6">{quizTitle}</h1>
+    <div className="glass-card-strong p-8 max-w-lg w-full text-center">
+      <h1 className="text-4xl font-bold text-white text-glow mb-6">{quizTitle}</h1>
       
       <img
         src={currentImageUrl}
         alt="Quiz question"
-        className="w-64 h-64 object-cover mx-auto mb-6"
+        className="w-64 h-64 object-cover mx-auto mb-6 rounded-xl border border-white/20 shadow-lg"
       />
 
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -143,12 +143,12 @@ export default function PictureQuiz({
             setUserInput(e.target.value)
           }
           placeholder={inputPlaceholder}
-          className="w-full p-2 border border-gray-300 rounded text-black focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="w-full p-3 glass-input"
           required
         />
         <button
           type="submit"
-          className="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition"
+          className="w-full glass-btn glass-btn-purple py-3"
         >
           Submit
         </button>
@@ -157,7 +157,7 @@ export default function PictureQuiz({
       {feedback && (
         <p
           className={`mt-4 text-lg font-semibold ${
-            feedback === "Correct!" ? "text-green-600" : "text-red-600"
+            feedback === "Correct!" ? "text-green-400" : "text-red-400"
           }`}
         >
           {feedback}
@@ -168,14 +168,14 @@ export default function PictureQuiz({
         <div className="mt-4">
           <button
             onClick={handleNextQuestion}
-            className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition"
+            className="glass-btn glass-btn-blue py-2 px-4"
           >
             Next Question
           </button>
         </div>
       ) : null}
 
-      <p className="mt-2 text-gray-700 text-lg">Score: {score}</p>
+      <p className="mt-4 text-gray-200 text-lg">Score: {score}</p>
     </div>
   );
 }

@@ -124,19 +124,19 @@ export default function Quiz({
 
   if (quizComplete) {
     return (
-      <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-6">
+      <div className="glass-card-strong p-8 max-w-lg w-full text-center">
+        <h1 className="text-4xl font-bold text-white text-glow mb-6">
           Quiz Complete!
         </h1>
-        <p className="text-lg mb-4 text-black">Your Score: {score}/{questions.length}</p>
+        <p className="text-lg mb-4 text-gray-200">Your Score: {score}/{questions.length}</p>
 
         {wrongAnswers.length > 0 && (
           <div className="text-left">
-            <h2 className="text-2xl text-black font-bold mb-4">Review of Incorrect Answers:</h2>
+            <h2 className="text-2xl text-white font-bold mb-4">Review of Incorrect Answers:</h2>
             {wrongAnswers.map((question, index) => (
-              <div key={index} className="mb-4">
-                <p className="font-semibold text-black">Question: {question.question.join(", ")}</p>
-                <p className="text-red-600">Correct Answer: {question.answer}</p>
+              <div key={index} className="mb-4 glass-card p-4">
+                <p className="font-semibold text-gray-200">Question: {question.question.join(", ")}</p>
+                <p className="text-red-400">Correct Answer: {question.answer}</p>
               </div>
             ))}
           </div>
@@ -144,7 +144,7 @@ export default function Quiz({
 
         <button
           onClick={resetQuiz}
-          className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition mt-6"
+          className="glass-btn glass-btn-blue py-2 px-6 mt-6"
         >
           Try Again
         </button>
@@ -152,30 +152,30 @@ export default function Quiz({
     );
   }
 
-  if (questions.length === 0) return <div>Loading...</div>;
+  if (questions.length === 0) return <div className="text-white text-xl">Loading...</div>;
 
   return (
-    <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full text-center">
-      <h1 className="text-4xl font-bold text-gray-800 mb-6">{quizTitle}</h1>
-      <h2 className="text-2xl font-semibold text-gray-700 mb-4">
+    <div className="glass-card-strong p-8 max-w-lg w-full text-center">
+      <h1 className="text-4xl font-bold text-white text-glow mb-6">{quizTitle}</h1>
+      <h2 className="text-2xl font-semibold text-gray-200 mb-4">
         {reversed ? "Reverse answer:" : questionTitle}
       </h2>
 
       <ul className="mb-6 space-y-2">
         {reversed ? (
-          <li className="text-lg text-gray-600">
+          <li className="text-lg text-gray-300">
             {questions[currentQuestionIndex]?.answer}
           </li>
         ) : (
           questions[currentQuestionIndex]?.question.map((item, index) => (
-            <li key={index} className="text-lg text-gray-600">
+            <li key={index} className="text-lg text-gray-300">
               {item}
             </li>
           ))
         )}
       </ul>
       {reversed && (
-        <p className="mb-4 text-gray-600">
+        <p className="mb-4 text-gray-300">
           Guessed: {guessedItems.length}/{questions[currentQuestionIndex]?.question.length || 0}
         </p>
       )}
@@ -189,12 +189,12 @@ export default function Quiz({
               setUserInput(e.target.value)
             }
             placeholder={reversed ? "Enter reverse answer:" : inputPlaceholder}
-            className="w-full p-2 border border-gray-300 rounded text-black focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full p-3 glass-input"
             required
           />
           <button
             type="submit"
-            className="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition"
+            className="w-full glass-btn glass-btn-purple py-3"
           >
             Submit
           </button>
@@ -205,11 +205,11 @@ export default function Quiz({
         <p
           className={`mt-4 text-lg font-semibold ${
             feedback === "Correct!"
-              ? "text-green-600"
+              ? "text-green-400"
               : feedback === "Wrong!"
-              ? "text-red-600"
+              ? "text-red-400"
               : feedback === "Already guessed!"
-              ? "text-yellow-600"
+              ? "text-yellow-400"
               : ""
           }`}
         >
@@ -221,7 +221,7 @@ export default function Quiz({
         <div className="mt-4 flex flex-col space-y-2">
           <button
             onClick={() => setShowAnswer(true)}
-            className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition"
+            className="glass-btn glass-btn-blue py-2 px-4"
           >
             Reveal Answer
           </button>
@@ -230,7 +230,7 @@ export default function Quiz({
 
       {showAnswer && (
         <div className="mt-4">
-          <p className="text-red-600">
+          <p className="text-red-400">
             {reversed
               ? `The correct items are: ${questions[currentQuestionIndex]?.question.join(
                   ", "
@@ -239,7 +239,7 @@ export default function Quiz({
           </p>
           <button
             onClick={handleNextQuestion}
-            className="mt-4 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition"
+            className="mt-4 glass-btn glass-btn-blue py-2 px-4"
           >
             Next Question
           </button>
@@ -250,17 +250,17 @@ export default function Quiz({
         <div className="mt-4">
           <button
             onClick={handleNextQuestion}
-            className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition"
+            className="glass-btn glass-btn-blue py-2 px-4"
           >
             Next Question
           </button>
         </div>
       )}
 
-      <p className="mt-2 text-gray-700 text-lg">Score: {score}</p>
+      <p className="mt-4 text-gray-200 text-lg">Score: {score}</p>
       <button
         onClick={toggleMode}
-        className="bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition mb-6"
+        className="glass-btn glass-btn-purple py-2 px-4 mt-4"
       >
         {reversed ? "Switch to Normal Mode" : "Switch to Reversed Mode"}
       </button>

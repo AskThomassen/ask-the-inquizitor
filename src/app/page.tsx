@@ -12,69 +12,70 @@ export default function Landing(): JSX.Element {
 
   return (
     <Layout>
-      <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-6">
+      <div className="glass-card-strong p-8 max-w-lg w-full text-center">
+        <h1 className="text-4xl font-bold text-white text-glow mb-6">
           Welcome to Ask The Inquizitor!
         </h1>
-        <p className="text-lg text-gray-700 mb-4">
+        <p className="text-lg text-gray-200 mb-4">
           Here, you can practice your quiz knowledge in a variety of themes.
         </p>
-        <p className="text-sm text-gray-600 mb-4">
+        <p className="text-sm text-gray-300 mb-6">
           Choose a category to test your knowledge:
         </p>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
           <button
-            className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition"
+            className="glass-btn glass-btn-blue py-3 px-4"
             onClick={() => handleCategoryClick("cocktails")}
           >
-            Cocktails
+            🍹 Cocktails
           </button>
           <button
-            className="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition"
+            className="glass-btn glass-btn-green py-3 px-4"
             onClick={() => handleCategoryClick("football")}
           >
-            Football
+            ⚽ Football
           </button>
           <button
-            className="bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition"
+            className="glass-btn glass-btn-purple py-3 px-4"
             onClick={() => handleCategoryClick("video-games")}
           >
-            Video Games
+            🎮 Video Games
           </button>
           <button
-            className="bg-orange-600 text-white py-2 px-4 rounded-lg hover:bg-orange-700 transition"
+            className="glass-btn glass-btn-orange py-3 px-4"
             onClick={() => handleCategoryClick("american-sports")}
           >
-            American Sports
+            🏈 American Sports
           </button>
           <button
-            className="bg-red-600 text-white py-2 px-4 rounded-lg hover:bg-red-700 transition"
+            className="glass-btn glass-btn-red py-3 px-4"
             onClick={() => handleCategoryClick("tv-series")}
           >
-            TV-shows and series
+            📺 TV-shows
           </button>
           <button
-            className="bg-cyan-600 text-white py-2 px-4 rounded-lg hover:bg-cyan-700 transition"
+            className="glass-btn glass-btn-cyan py-3 px-4"
             onClick={() => handleCategoryClick("movies")}
           >
-            Movies
+            🎬 Movies
           </button>
           <button
-            className="bg-yellow-600 text-white py-2 px-4 rounded-lg hover:bg-yellow-700 transition"
+            className="glass-btn glass-btn-yellow py-3 px-4"
             onClick={() => handleCategoryClick("usa")}
           >
-            USA
+            🇺🇸 USA
           </button>
           <button
-            className="bg-pink-600 text-white py-2 px-4 rounded-lg hover:bg-pink-700 transition"
+            className="glass-btn glass-btn-pink py-3 px-4"
             onClick={() => handleCategoryClick("general-sports")}
           >
-            General sports
-          </button>          <button
-            className="bg-teal-600 text-white py-2 px-4 rounded-lg hover:bg-pink-700 transition"
+            🏆 General Sports
+          </button>
+          <button
+            className="glass-btn glass-btn-teal py-3 px-4"
             onClick={() => handleCategoryClick("image-quizes")}
           >
-            Image Quizes
+            🖼️ Image Quizes
           </button>
         </div>
       </div>
