@@ -10,7 +10,6 @@ interface StadiumQuizData {
 
 export default function Stadiums() {
   const [stadiums, setStadiums] = useState<StadiumQuizData[]>([]);
-  const [usedQuestions, setUsedQuestions] = useState<StadiumQuizData[]>([]);
   const imagesFolder = "/images/football_stadiums";
 
   useEffect(() => {
@@ -30,15 +29,11 @@ export default function Stadiums() {
     return array;
   };
 
-  const handleQuestionUsed = (question: StadiumQuizData) => {
-    setUsedQuestions((prev) => [...prev, question]);
-  };
-
   return (
     <Layout>
       {stadiums.length > 0 && (
         <PictureQuiz
-          data={stadiums.filter((s) => !usedQuestions.includes(s))}
+          data={stadiums}
           imageFolder={imagesFolder}
           inputPlaceholder="Enter football team or name of stadium"
           quizTitle="Football Stadium Quiz"

@@ -10,7 +10,6 @@ interface FlagQuizData {
 
 export default function FlagsQuiz() {
   const [flags, setFlags] = useState<FlagQuizData[]>([]);
-  const [usedQuestions, setUsedQuestions] = useState<FlagQuizData[]>([]);
   const imagesFolder = "/images/country-flags";
 
   useEffect(() => {
@@ -30,15 +29,11 @@ export default function FlagsQuiz() {
     return array;
   };
 
-  const handleQuestionUsed = (question: FlagQuizData) => {
-    setUsedQuestions((prev) => [...prev, question]);
-  };
-
   return (
     <Layout>
       {flags.length > 0 && (
         <PictureQuiz
-          data={flags.filter((f) => !usedQuestions.includes(f))}
+          data={flags}
           imageFolder={imagesFolder}
           inputPlaceholder="Enter name of the country which has this flag:"
           quizTitle="Flag-Country Quiz"

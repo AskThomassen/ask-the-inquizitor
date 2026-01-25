@@ -3,25 +3,24 @@ import { useEffect, useState } from "react";
 import Quiz from "../../../components/quiz";
 import Layout from "../../../components/layout";
 
-interface name {
+interface TeamData {
   question: string[];
   answer: string;
 }
 
-export default function names() {
-  const [names, setnames] = useState<name[]>([]);
-  const [usedQuestions, setUsedQuestions] = useState<name[]>([]);
+export default function NFLQuiz() {
+  const [teams, setTeams] = useState<TeamData[]>([]);
 
   useEffect(() => {
     import("./location.json")
       .then((data) => {
-        const shufflednames = shuffleArray(data.default);
-        setnames(shufflednames);
+        const shuffledTeams = shuffleArray(data.default);
+        setTeams(shuffledTeams);
       })
-      .catch((error) => console.error("Error loading names:", error));
+      .catch((error) => console.error("Error loading teams:", error));
   }, []);
 
-  const shuffleArray = (array: name[]) => {
+  const shuffleArray = (array: TeamData[]) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
@@ -29,15 +28,11 @@ export default function names() {
     return array;
   };
 
-  const handleQuestionUsed = (question: name) => {
-    setUsedQuestions((prev) => [...prev, question]);
-  };
-
   return (
     <Layout>
-      {names.length > 0 && (
+      {teams.length > 0 && (
         <Quiz
-          data={names.filter((s) => !usedQuestions.includes(s))}
+          data={teams}
           questionTitle="NFL team:"
           inputPlaceholder="Enter team name"
           quizTitle="NFL city-name Quiz"

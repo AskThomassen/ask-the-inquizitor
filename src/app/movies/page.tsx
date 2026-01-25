@@ -3,25 +3,24 @@ import { useEffect, useState } from "react";
 import Quiz from "../components/quiz";
 import Layout from "../components/layout";
 
-interface game {
+interface MovieData {
   question: string[];
   answer: string;
 }
 
-export default function games() {
-  const [games, setgames] = useState<game[]>([]);
-  const [usedQuestions, setUsedQuestions] = useState<game[]>([]);
+export default function MoviesQuiz() {
+  const [movies, setMovies] = useState<MovieData[]>([]);
 
   useEffect(() => {
     import("./movies.json")
       .then((data) => {
-        const shuffledgames = shuffleArray(data.default);
-        setgames(shuffledgames);
+        const shuffledMovies = shuffleArray(data.default);
+        setMovies(shuffledMovies);
       })
-      .catch((error) => console.error("Error loading games:", error));
+      .catch((error) => console.error("Error loading movies:", error));
   }, []);
 
-  const shuffleArray = (array: game[]) => {
+  const shuffleArray = (array: MovieData[]) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
@@ -29,15 +28,11 @@ export default function games() {
     return array;
   };
 
-  const handleQuestionUsed = (question: game) => {
-    setUsedQuestions((prev) => [...prev, question]);
-  };
-
   return (
     <Layout>
-      {games.length > 0 && (
+      {movies.length > 0 && (
         <Quiz
-          data={games.filter((s) => !usedQuestions.includes(s))}
+          data={movies}
           questionTitle="Protagonist(s):"
           inputPlaceholder="Enter movie name"
           quizTitle="Movie quiz:"

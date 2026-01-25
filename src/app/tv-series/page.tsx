@@ -3,25 +3,24 @@ import { useEffect, useState } from "react";
 import Quiz from "../components/quiz";
 import Layout from "../components/layout";
 
-interface game {
+interface SeriesData {
   question: string[];
   answer: string;
 }
 
-export default function games() {
-  const [games, setgames] = useState<game[]>([]);
-  const [usedQuestions, setUsedQuestions] = useState<game[]>([]);
+export default function TVSeriesQuiz() {
+  const [series, setSeries] = useState<SeriesData[]>([]);
 
   useEffect(() => {
     import("./series.json")
       .then((data) => {
-        const shuffledgames = shuffleArray(data.default);
-        setgames(shuffledgames);
+        const shuffledSeries = shuffleArray(data.default);
+        setSeries(shuffledSeries);
       })
-      .catch((error) => console.error("Error loading games:", error));
+      .catch((error) => console.error("Error loading series:", error));
   }, []);
 
-  const shuffleArray = (array: game[]) => {
+  const shuffleArray = (array: SeriesData[]) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
@@ -29,18 +28,14 @@ export default function games() {
     return array;
   };
 
-  const handleQuestionUsed = (question: game) => {
-    setUsedQuestions((prev) => [...prev, question]);
-  };
-
   return (
     <Layout>
-      {games.length > 0 && (
+      {series.length > 0 && (
         <Quiz
-          data={games.filter((s) => !usedQuestions.includes(s))}
+          data={series}
           questionTitle="Protagonist(s):"
           inputPlaceholder="Enter TV-show name"
-          quizTitle="Tv-shows"
+          quizTitle="TV-shows"
         />
       )}
     </Layout>
