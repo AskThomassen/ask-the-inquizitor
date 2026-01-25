@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Quiz from "../../components/image_quiz";
 import Layout from "../../components/layout";
+import PictureQuiz from "../../components/image_quiz";
 
 interface Stadium {
   question: string[];
@@ -37,7 +38,7 @@ export default function Stadiums() {
   return (
     <Layout>
       {stadiums.length > 0 && (
-        <Quiz
+        <PictureQuiz
           data={stadiums.filter((s) => !usedQuestions.includes(s))}
           imageFolder={imagesFolder} // Pass the images folder path
           questionTitle="Stadium:"

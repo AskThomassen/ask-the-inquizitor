@@ -1,0 +1,194 @@
+[
+  {
+    "question": ["Tirana"],
+    "answer": "Albania"
+  },
+  {
+    "question": ["Wien"],
+    "answer": "Østerrike"
+  },
+  {
+    "question": ["Baku"],
+    "answer": "Aserbajdsjan"
+  },
+  {
+    "question": ["Minsk"],
+    "answer": "Hviterussland"
+  },
+  {
+    "question": ["Brussel"],
+    "answer": "Belgia"
+  },
+  {
+    "question": ["Sarajevo"],
+    "answer": "Bosnia og Hercegovina"
+  },
+  {
+    "question": ["Sofia"],
+    "answer": "Bulgaria"
+  },
+  {
+    "question": ["Zagreb"],
+    "answer": "Kroatia"
+  },
+  {
+    "question": ["Nikosia"],
+    "answer": "Kypros"
+  },
+  {
+    "question": ["Praha"],
+    "answer": "Tsjekkia"
+  },
+  {
+    "question": ["København"],
+    "answer": "Danmark"
+  },
+  {
+    "question": ["Tallinn"],
+    "answer": "Estland"
+  },
+  {
+    "question": ["Helsingfors"],
+    "answer": "Finland"
+  },
+  {
+    "question": ["Paris"],
+    "answer": "Frankrike"
+  },
+  {
+    "question": ["Tbilisi"],
+    "answer": "Georgia"
+  },
+  {
+    "question": ["Berlin"],
+    "answer": "Tyskland"
+  },
+  {
+    "question": ["Athen"],
+    "answer": "Hellas"
+  },
+  {
+    "question": ["Budapest"],
+    "answer": "Ungarn"
+  },
+  {
+    "question": ["Reykjavik"],
+    "answer": "Island"
+  },
+  {
+    "question": ["Dublin"],
+    "answer": "Irland"
+  },
+  {
+    "question": ["Roma"],
+    "answer": "Italia"
+  },
+  {
+    "question": ["Astana"],
+    "answer": "Kasakhstan"
+  },
+  {
+    "question": ["Riga"],
+    "answer": "Latvia"
+  },
+  {
+    "question": ["Vaduz"],
+    "answer": "Liechtenstein"
+  },
+  {
+    "question": ["Vilnius"],
+    "answer": "Litauen"
+  },
+  {
+    "question": ["Luxembourg"],
+    "answer": "Luxembourg"
+  },
+  {
+    "question": ["Valletta"],
+    "answer": "Malta"
+  },
+  {
+    "question": ["Chisinau"],
+    "answer": "Moldova"
+  },
+  {
+    "question": ["Monaco"],
+    "answer": "Monaco"
+  },
+  {
+    "question": ["Podgorica"],
+    "answer": "Montenegro"
+  },
+  {
+    "question": ["Amsterdam"],
+    "answer": "Nederland"
+  },
+  {
+    "question": ["Skopje"],
+    "answer": "Nord-Makedonia"
+  },
+  {
+    "question": ["Oslo"],
+    "answer": "Norge"
+  },
+  {
+    "question": ["Warszawa"],
+    "answer": "Polen"
+  },
+  {
+    "question": ["Lisboa"],
+    "answer": "Portugal"
+  },
+  {
+    "question": ["Bucuresti"],
+    "answer": "Romania"
+  },
+  {
+    "question": ["Moskva"],
+    "answer": "Russland"
+  },
+  {
+    "question": ["San Marino"],
+    "answer": "San Marino"
+  },
+  {
+    "question": ["Beograd"],
+    "answer": "Serbia"
+  },
+  {
+    "question": ["Bratislava"],
+    "answer": "Slovakia"
+  },
+  {
+    "question": ["Ljubljana"],
+    "answer": "Slovenia"
+  },
+  {
+    "question": ["Madrid"],
+    "answer": "Spania"
+  },
+  {
+    "question": ["Stockholm"],
+    "answer": "Sverige"
+  },
+  {
+    "question": ["Bern"],
+    "answer": "Sveits"
+  },
+  {
+    "question": ["Ankara"],
+    "answer": "Tyrkia"
+  },
+  {
+    "question": ["Kyiv"],
+    "answer": "Ukraina"
+  },
+  {
+    "question": ["London"],
+    "answer": "Storbritannia"
+  },
+  {
+    "question": ["Vatikanstaten"],
+    "answer": "Vatikanstaten"
+  }
+]

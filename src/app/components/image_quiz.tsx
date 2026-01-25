@@ -1,4 +1,3 @@
-"use client";
 import { useState, useEffect, FormEvent, ChangeEvent } from "react";
 
 interface QuizData {
@@ -15,7 +14,7 @@ interface QuizProps {
 
 export default function PictureQuiz({
   data,
-  imageFolder, // Added image folder prop
+  imageFolder,
   inputPlaceholder,
   quizTitle,
 }: QuizProps) {
@@ -26,6 +25,7 @@ export default function PictureQuiz({
   const [feedback, setFeedback] = useState<string>("");
   const [wrongAnswers, setWrongAnswers] = useState<QuizData[]>([]);
   const [quizComplete, setQuizComplete] = useState<boolean>(false);
+  const [showAnswer, setShowAnswer] = useState<boolean>(false);
 
   useEffect(() => {
     const shuffledQuestions = shuffleArray(data);
@@ -41,10 +41,8 @@ export default function PictureQuiz({
   };
 
   const getImageUrl = (imageName: string) => {
-    const imageUrl = `/images/football_stadiums/${imageName}`; // Ensure it starts with '/'
-    return imageUrl;
+    return `${imageFolder}/${imageName}`;
   };
-  
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -58,14 +56,17 @@ export default function PictureQuiz({
       setScore(score + 1);
       setFeedback("Correct!");
       setUserInput("");
+      setShowAnswer(false);
     } else {
       setFeedback("Wrong!");
       setWrongAnswers([...wrongAnswers, questions[currentQuestionIndex]]);
       setUserInput("");
+      setShowAnswer(false);
     }
   };
 
   const handleNextQuestion = () => {
+    setShowAnswer(false);
     setFeedback("");
     setUserInput("");
 
@@ -98,10 +99,10 @@ export default function PictureQuiz({
             </h2>
             {wrongAnswers.map((question, index) => (
               <div key={index} className="mb-4">
-                <img
+              <img
                   src={getImageUrl(question.image)}
                   alt="Incorrect question"
-                  className="w-40 h-40 object-cover mx-auto"
+                  className="w-64 h-64 max-w-full max-h-full object-contain mx-auto mb-6"
                 />
                 <p className="text-red-600">
                   Correct Answers: {question.answers.join(", ")}
@@ -124,6 +125,7 @@ export default function PictureQuiz({
   if (questions.length === 0) return <div>Loading...</div>;
 
   const currentImageUrl = getImageUrl(questions[currentQuestionIndex]?.image);
+  console.log(currentImageUrl);
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full text-center">
@@ -132,7 +134,7 @@ export default function PictureQuiz({
       <img
         src={currentImageUrl}
         alt="Quiz question"
-        className="w-64 h-64 object-cover mx-auto mb-6"
+        className="w-64 h-64 max-w-full max-h-full object-contain mx-auto mb-6"
       />
 
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -164,7 +166,32 @@ export default function PictureQuiz({
         </p>
       )}
 
-      {feedback === "Correct!" || feedback === "Wrong!" ? (
+      {feedback === "Wrong!" && !showAnswer && (
+        <div className="mt-4">
+          <button
+            onClick={() => setShowAnswer(true)}
+            className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition"
+          >
+            Reveal Answer
+          </button>
+        </div>
+      )}
+
+      {showAnswer && (
+        <div className="mt-4">
+          <p className="text-red-600">
+            The correct answers are: {questions[currentQuestionIndex]?.answers.join(", ")}
+          </p>
+          <button
+            onClick={handleNextQuestion}
+            className="mt-4 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition"
+          >
+            Next Question
+          </button>
+        </div>
+      )}
+
+      {feedback === "Correct!" && (
         <div className="mt-4">
           <button
             onClick={handleNextQuestion}
@@ -173,7 +200,7 @@ export default function PictureQuiz({
             Next Question
           </button>
         </div>
-      ) : null}
+      )}
 
       <p className="mt-2 text-gray-700 text-lg">Score: {score}</p>
     </div>

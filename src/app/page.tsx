@@ -61,9 +61,9 @@ export default function Landing(): JSX.Element {
           </button>
           <button
             className="bg-yellow-600 text-white py-2 px-4 rounded-lg hover:bg-yellow-700 transition"
-            onClick={() => handleCategoryClick("usa")}
+            onClick={() => handleCategoryClick("geography")}
           >
-            USA
+            Geography
           </button>
           <button
             className="bg-pink-600 text-white py-2 px-4 rounded-lg hover:bg-pink-700 transition"

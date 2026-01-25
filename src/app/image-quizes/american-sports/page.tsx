@@ -2,7 +2,7 @@
 "use client";  // Ensure this is at the top
 
 import { useRouter } from "next/navigation";
-import Layout from "../components/layout";
+import Layout from "../../components/layout";
 
 export default function Landing(): JSX.Element {
   const router = useRouter();
