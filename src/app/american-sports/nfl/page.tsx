@@ -8,9 +8,8 @@ interface name {
   answer: string;
 }
 
-export default function names() {
+export default function Names() {
   const [names, setnames] = useState<name[]>([]);
-  const [usedQuestions, setUsedQuestions] = useState<name[]>([]);
 
   useEffect(() => {
     import("./location.json")
@@ -29,15 +28,11 @@ export default function names() {
     return array;
   };
 
-  const handleQuestionUsed = (question: name) => {
-    setUsedQuestions((prev) => [...prev, question]);
-  };
-
   return (
     <Layout>
       {names.length > 0 && (
         <Quiz
-          data={names.filter((s) => !usedQuestions.includes(s))}
+          data={names}
           questionTitle="NFL team:"
           inputPlaceholder="Enter team name"
           quizTitle="NFL city-name Quiz"

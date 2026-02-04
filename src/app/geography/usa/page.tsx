@@ -8,9 +8,8 @@ interface state {
   answer: string;
 }
 
-export default function states() {
+export default function States() {
   const [states, setstates] = useState<state[]>([]);
-  const [usedQuestions, setUsedQuestions] = useState<state[]>([]);
 
   useEffect(() => {
     import("./states.json")
@@ -29,15 +28,11 @@ export default function states() {
     return array;
   };
 
-  const handleQuestionUsed = (question: state) => {
-    setUsedQuestions((prev) => [...prev, question]);
-  };
-
   return (
     <Layout>
       {states.length > 0 && (
         <Quiz
-          data={states.filter((s) => !usedQuestions.includes(s))}
+          data={states}
           questionTitle="State:"
           inputPlaceholder="Enter state capitol name"
           quizTitle="Capitol of each state quiz:"

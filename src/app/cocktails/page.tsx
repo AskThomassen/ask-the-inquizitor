@@ -10,7 +10,6 @@ interface Cocktail {
 
 export default function Cocktails() {
   const [cocktails, setCocktails] = useState<Cocktail[]>([]);
-  const [usedQuestions, setUsedQuestions] = useState<Cocktail[]>([]);
 
   useEffect(() => {
     import("./cocktails.json")
@@ -29,15 +28,11 @@ export default function Cocktails() {
     return array;
   };
 
-  const handleQuestionUsed = (question: Cocktail) => {
-    setUsedQuestions((prev) => [...prev, question]);
-  };
-
   return (
     <Layout>
       {cocktails.length > 0 && (
         <Quiz
-          data={cocktails.filter((c) => !usedQuestions.includes(c))}
+          data={cocktails}
           questionTitle="Ingredients:"
           inputPlaceholder="Enter cocktail name"
           quizTitle="Cocktail Quiz"

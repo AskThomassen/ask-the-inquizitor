@@ -10,7 +10,6 @@
 
   export default function Stadiums() {
     const [stadiums, setStadiums] = useState<Stadium[]>([]);
-    const [usedQuestions, setUsedQuestions] = useState<Stadium[]>([]);
 
     useEffect(() => {
       import("./stadiums.json")
@@ -29,15 +28,11 @@
       return array;
     };
 
-    const handleQuestionUsed = (question: Stadium) => {
-      setUsedQuestions((prev) => [...prev, question]);
-    };
-
     return (
       <Layout>
         {stadiums.length > 0 && (
           <Quiz
-            data={stadiums.filter((s) => !usedQuestions.includes(s))}
+            data={stadiums}
             questionTitle="Stadium:"
             inputPlaceholder="Enter football team"
             quizTitle="Football Stadium Quiz"

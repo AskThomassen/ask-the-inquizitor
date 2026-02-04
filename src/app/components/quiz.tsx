@@ -97,11 +97,6 @@ export default function Quiz({
     }
   };
 
-  const handleTryAgain = () => {
-    setFeedback("");
-    setShowAnswer(false);
-  };
-
   const toggleMode = () => {
     setReversed(!reversed);
     setCurrentQuestionIndex(0);
