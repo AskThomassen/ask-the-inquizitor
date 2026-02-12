@@ -8,11 +8,11 @@
         "image": "Maria .png"
     },
     {
-        "answers": ["Leonora Løkholm", "Rosenlund"],
+        "answers": ["Leonora", "Løkholm", "Rosenlund"],
         "image": "leonora.png"
     },
     {
-        "answers": ["Anni Maaria", "Miettunen"],
+        "answers": ["Anni", "Maaria", "Miettunen"],
         "image": "anni.avif"
     },
     {
@@ -20,7 +20,7 @@
         "image": "estella.png"
     },
     {
-        "answers": ["Linea Bardo", "Camitz"],
+        "answers": ["Linea", "Bardo", "Camitz"],
         "image": "Linnea.png"
     },
     {
@@ -48,7 +48,7 @@
         "image": "julia.jpg"
     },
     {
-        "answers": ["Thea Grønbech", "Selnes"],
+        "answers": ["Thea", "Grønbech", "Selnes"],
         "image": "thea.png"
     },
     {

@@ -44,13 +44,32 @@ export default function PictureQuiz({
     return `${imageFolder}/${imageName}`;
   };
 
+  // Generate all valid answers: each individual name part, each original answer, and the full name
+  const getAllValidAnswers = (answers: string[]): string[] => {
+    const validAnswers: Set<string> = new Set();
+    
+    // Add each original answer and split each by spaces
+    answers.forEach((answer) => {
+      validAnswers.add(answer.toLowerCase());
+      // Split by space and add each part
+      answer.split(" ").forEach((part) => {
+        if (part.trim()) {
+          validAnswers.add(part.trim().toLowerCase());
+        }
+      });
+    });
+    
+    // Add the full name (all answers joined)
+    validAnswers.add(answers.join(" ").toLowerCase());
+    
+    return Array.from(validAnswers);
+  };
+
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const userAnswer = userInput.trim().toLowerCase();
-    const correctAnswers = questions[currentQuestionIndex]?.answers.map((answer) =>
-      answer.toLowerCase()
-    );
+    const correctAnswers = getAllValidAnswers(questions[currentQuestionIndex]?.answers || []);
 
     if (correctAnswers.includes(userAnswer)) {
       setScore(score + 1);
