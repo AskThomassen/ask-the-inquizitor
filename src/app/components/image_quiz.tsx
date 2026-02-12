@@ -102,7 +102,7 @@ export default function PictureQuiz({
                 <img
                   src={getImageUrl(question.image)}
                   alt="Incorrect question"
-                  className="w-40 h-40 object-cover mx-auto"
+                  className="w-40 h-40 object-contain mx-auto"
                 />
                 <p className="text-red-400 mt-2">
                   Correct Answers: {question.answers.join(", ")}
@@ -134,7 +134,7 @@ export default function PictureQuiz({
       <img
         src={currentImageUrl}
         alt="Quiz question"
-        className="w-64 h-64 object-cover mx-auto mb-6"
+        className="w-64 h-64 object-contain mx-auto mb-6"
       />
 
       <form onSubmit={handleSubmit} className="space-y-4">
